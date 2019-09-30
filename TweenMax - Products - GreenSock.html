@@ -1,0 +1,3419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://greensock.com/tweenmax/ -->
+<html lang="en-US" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./TweenMax - Products - GreenSock_files/visit"></script>
+		<title>TweenMax - Products - GreenSock</title>
+		
+			<!-- Google Analytics -->
+<script type="text/javascript" async="" src="./TweenMax - Products - GreenSock_files/recaptcha__en.js.download"></script><script type="text/javascript" async="" src="./TweenMax - Products - GreenSock_files/client.js.download"></script><script type="text/javascript" async="" src="./TweenMax - Products - GreenSock_files/7053285.js.download"></script><script async="" src="./TweenMax - Products - GreenSock_files/analytics.js.download"></script><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-43392009-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+		
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="https://greensock.com/uploads/css_built_4/5e61784858ad3c11f00b5706d12afe52_ie8.css.8812febbab5f43a8038b96de8c3c20cf.css">
+		    <script src="//greensock.com/applications/core/interface/html5shiv/html5shiv.js"></script>
+		<![endif]-->
+		
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+
+
+	
+		<meta name="twitter:site" content="@greensock">
+	
+
+
+	
+		
+			
+				<meta property="og:title" content="Tween&lt;span&gt;Max&lt;/span&gt;">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:type" content="object">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:url" content="https://greensock.com/tweenmax/">
+			
+		
+	
+
+	
+		
+			
+				<meta name="description" content="TweenMax is most robust part of GSAP, a JavaScript library for high-performance HTML5 animation in all major browsers. Popular, reliable and fast.">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:description" content="TweenMax is most robust part of GSAP, a JavaScript library for high-performance HTML5 animation in all major browsers. Popular, reliable and fast.">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:updated_time" content="2019-08-01T22:20:08Z">
+			
+		
+	
+
+	
+		
+			
+				<meta name="keywords" content="gsap, tweenmax, javascript, tweening, animation, html5, tween, featured, core">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:image" content="https://greensock.com/uploads/monthly_2014_08/1256803633_201404tweenmax.jpg.08701ae6613b1b27fbf24b129bac8626.jpg">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:site_name" content="GreenSock">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:locale" content="en_US">
+			
+		
+	
+
+
+	
+		<link rel="canonical" href="https://greensock.com/tweenmax/">
+	
+
+	
+		<link as="style" rel="preload" href="https://greensock.com/applications/core/interface/ckeditor/ckeditor/skins/ips/editor.css?t=J7IN">
+	
+
+
+
+
+<link rel="manifest" href="https://greensock.com/manifest.webmanifest/">
+<meta name="msapplication-config" content="https://greensock.com/browserconfig.xml/">
+<meta name="msapplication-starturl" content="/">
+<meta name="application-name" content="GreenSock">
+<meta name="apple-mobile-web-app-title" content="GreenSock">
+
+	<meta name="theme-color" content="#262626">
+
+
+
+
+
+
+		
+
+
+
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/341e4a57816af3ba440d891ca87450ff_framework.css.86991f3b3310f1b25fe31f684137ab5e.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/05e81b71abe4f22d6eb8d1a929494829_responsive.css.bc3336832d6ec2a37202b5d65246f835.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/c98a8e7b30dcbf4077904543204178d6_cjmg.css.fd56dbc2f46a82f21c67c3e34033304f.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/a821475d56b9f82917999ca84ec35d67_mega.css.3c8b442a493bde5a33f8a3aefae9a7b5.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/a206739b3fcb7c9d52544d613dfea8a9_traditional.css.99f8b074e61f995fa75105518a60f775.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/9a34a7844b6c935e0366f94793967f9e_block.css.d3640b62af614a5168e82a2ddffd4505.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/3a439334f014898867836841a318ce09_cjmg_custom.css.a7d4af50e01046d6c8f5b2c156962ca5.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/90eb5adf50a8c640f633d47fd7eb1778_core.css.9f812da2d49aa8763da654169cc158dd.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css.e809ff8a04a58cca1deccbc61e75c617.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/9037af43189dec1f1ca4d162227a3350_record.css.c3c966ab11e1d9c8b8dbe6c985ecd104.css" media="all">
+
+	<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/97c0a48072ce601c9764cb6b00a6588a_page.css.0c20bb629303ccf1c74c4046dbeb0834.css" media="all">
+
+
+
+
+<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/258adbb6e4f3e83cd3b355f84e3fa002_custom.css.27eedaec50206d7a9ed87f36863a64f9.css" media="all">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="./TweenMax - Products - GreenSock_files/blog.css.d8f4a61a1db342c2a478c2e87480fe1f.css" media="all">
+
+
+		
+
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/prettify.js.download" data-ips=""></script>
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/TweenMax.min.js.download" data-ips=""></script>
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/ScrollToPlugin.min.js.download" data-ips=""></script>
+
+
+
+	<script type="text/javascript">
+		var ipsDebug = false;		
+	
+		var CKEDITOR_BASEPATH = '//greensock.com/applications/core/interface/ckeditor/ckeditor/';
+	
+		var ipsSettings = {
+			
+			
+			cookie_domain: ".greensock.com",
+			
+			cookie_path: "/",
+			
+			cookie_prefix: "ips4_",
+			
+			
+			cookie_ssl: true,
+			
+			upload_imgURL: "",
+			message_imgURL: "",
+			notification_imgURL: "",
+			baseURL: "//greensock.com/",
+			jsURL: "//greensock.com/applications/core/interface/js/js.php",
+			csrfKey: "20b755591f67c85dbcd0e8d04004e601",
+			antiCache: "82a098e8d3",
+			disableNotificationSounds: false,
+			useCompiledFiles: true,
+			links_external: true,
+			memberID: 0,
+			lazyLoadEnabled: false,
+			blankImg: "//greensock.com/applications/core/interface/js/spacer.png",
+			analyticsProvider: "ga",
+			viewProfiles: true,
+			mapProvider: 'none',
+			mapApiKey: '',
+			
+		};
+	</script>
+
+
+
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/root_library.js.af0c731e177e531dba2a7c9af056c8a3.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/root_js_lang_1.js.7895536704164562a7fd3eea03ba0124.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/root_framework.js.41d4b5f5f808d97110c08b8a85864016.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/global_global_core.js.d46962a40ff797123fdc598a1286b0ab.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/plugins_plugins.js.5e24beb0dd6f30249653a9b0ec8d6d6e.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/front_front_menus.js.6070008ab5b00a170e3f0ce1edd1f7a9.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/root_front.js.3a2efc01e2e8e900e5232ff948380434.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/front_front_global.js.73d44ee6a8ac505386dd6f7c3f2fc3e0.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/download-overlay.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/fixcodeblocks.js.7d1a16b3463f69e23065129d22b89baf.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/front_front_core.js.e9579871b22e1fff0cbe190af8466850.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/plupload.full.min.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/front_app.js.9ddd64fa6c505412cb28fcf5fbccce20.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/root_map.js.5d781f44c00f9c358dd2a85338bb8635.js.download" data-ips=""></script>
+
+
+<script type="text/javascript" src="./TweenMax - Products - GreenSock_files/ei.js.download" async=""></script>
+
+
+	<script type="text/javascript">
+		
+			ips.setSetting( 'date_format', jQuery.parseJSON('"mm\/dd\/yy"') );
+		
+			ips.setSetting( 'date_first_day', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'remote_image_proxy', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'ipb_url_filter_option', jQuery.parseJSON('"none"') );
+		
+			ips.setSetting( 'url_filter_any_action', jQuery.parseJSON('"allow"') );
+		
+			ips.setSetting( 'bypass_profanity', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'emoji_style', jQuery.parseJSON('"native"') );
+		
+			ips.setSetting( 'emoji_shortcodes', jQuery.parseJSON('"1"') );
+		
+			ips.setSetting( 'emoji_ascii', jQuery.parseJSON('"1"') );
+		
+			ips.setSetting( 'emoji_cache', jQuery.parseJSON('"1560228426"') );
+		
+			ips.setSetting( 'desktopNotifications', jQuery.parseJSON('0') );
+		
+		<!-- Drip -->
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '7053285';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/7053285.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+<!-- end Drip -->
+	</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "url": "https://greensock.com/tweenmax/",
+    "discussionUrl": "https://greensock.com/tweenmax/",
+    "mainEntityOfPage": "https://greensock.com/tweenmax/",
+    "name": "Tween\u003Cspan\u003EMax\u003C/span\u003E",
+    "headline": "Tween\u003Cspan\u003EMax\u003C/span\u003E",
+    "text": "TweenMax is the most feature-packed (and popular) animation tool in the GSAP arsenal. For convenience and loading efficiency, it includes TweenLite, TimelineLite, TimelineMax, CSSPlugin, AttrPlugin, RoundPropsPlugin, BezierPlugin, and EasePack (all in one file).\n \n\n\n\t\n\t\tSee the Pen GSAP Overview by GreenSock (@GreenSock) on CodePen.\n\t \n\n\n\n\tQuick links\n \n\n\n\t\n\t\tGetting started\n\t \n\t\n\t\tWhat\u0027s so special about GSAP?\n\t \n\t\n\t\tFull documentation\n\t \n\t\n\t\tShowcase (examples)\n\t \n\n\n\n\tSince TweenMax extends TweenLite, it can do\u00a0ANYTHING\u00a0TweenLite can do plus more. You can mix and match TweenLite and TweenMax in your project as you please. Like TweenLite, a TweenMax instance handles tweening one or more properties of\u00a0any object\u00a0(or array of objects) over time.\n \n\n\n\tTweenMax\u0027s unique special properties\n \n\n\n\tTweenMax\u0027s syntax is identical to TweenLite\u0027s. Notice how the TweenMax tween below uses the special properties: repeat, repeatDelay, yoyo and the onRepeat event callback.\n \n\n\n\t\n//basic illustration of TweenMax\u0027s repeat, repeatDelay, yoyo and onRepeat\nvar box = document.getElementById(\"greenBox\"),\n    count = 0,\n    tween;\n\ntween = TweenMax.to(box, 2, {left:\"740px\", repeat:10, yoyo:true, onRepeat:onRepeat, repeatDelay:0.5, ease:Linear.easeNone});\n\nfunction onRepeat() {\n  count++;\n  box.innerHTML = count;\n  TweenLite.set(box, {backgroundColor:\"hsl(\" + Math.random() * 255 + \", 90%, 60%)\"});\n}\t\t\t\t\t\t\t\n\n\tSee the Pen TweenMax basic repeat and onRepeat by GreenSock (@GreenSock) on CodePen.\n\n\n\n\tStaggered animations\n \n\n\n\tTweenMax makes it easy to create staggered animations on multiple objects. The animations can overlap, run in direct sequence or have gaps between their start times. TweenMax\u0027s three stagger methods: TweenMax.staggerTo(), TweenMax.staggerFrom() and TweenMax.staggerFromTo() are literal one-line wonders.\n \n\n\n\tSee the Pen TweenMax.staggerTo() by GreenSock (@GreenSock) on CodePen.\n \n\n\n\tAdditional Methods\n \n\n\n\tTweenMax inherits a ton of methods from TweenLite and has quite a few of its own. ul.chart {width:300px;\r\n  float:left;\r\n  margin-right:80px;\r\n}\r\n\r\nul.chart li:nth-child(1){\r\n  font-weight:bold;\r\n  list-style:none;\r\n  margin-left:-20px;\r\n  font-size:20px;\r\n  margin-bottom:20px; \r\n} \n\u0026#13;\n  TweenLite and TweenMax Methods \u0026#13;\n  delay() \u0026#13;\n  delayedCall() \u0026#13;\n  duration() \u0026#13;\n  eventCallback \u0026#13;\n  from() \u0026#13;\n  fromTo() \u0026#13;\n  getTweensOf() \u0026#13;\n  invalidate() \u0026#13;\n  isActive() \u0026#13;\n  kill() \u0026#13;\n  killDelayedCallsTo() \u0026#13;\n  killTweensOf() \u0026#13;\n  pause() \u0026#13;\n  paused() \u0026#13;\n  play() \u0026#13;\n  progress() \u0026#13;\n  restart() \u0026#13;\n  resume() \u0026#13;\n  reverse() \u0026#13;\n  reversed() \u0026#13;\n  seek() \u0026#13;\n  set() \u0026#13;\n  startTime() \u0026#13;\n  time() \u0026#13;\n  timeScale() \u0026#13;\n  to() \u0026#13;\n  totalDuration() \u0026#13;\n  totalProgress() \u0026#13;\n  totalTime() \u0026#13;\n\u0026#13;\n\u0026#13;\n\u0026#13;\n  Methods exclusive to TweenMax \u0026#13;\n  getAllTweens() \u0026#13;\n  isTweening() \u0026#13;\n  killAll() \u0026#13;\n  killChildTweensOf() \u0026#13;\n  pauseAll() \u0026#13;\n  repeat() \u0026#13;\n  repeatDelay() \u0026#13;\n  resumeAll() \u0026#13;\n  staggerFrom() \u0026#13;\n  staggerFromTo() \u0026#13;\n  staggerTo() \u0026#13;\n  updateTo() \u0026#13;\n  yoyo() \u0026#13;\n\u0026#13;\n Learn more in the TweenMax documentation. \n\n",
+    "articleBody": "TweenMax is the most feature-packed (and popular) animation tool in the GSAP arsenal. For convenience and loading efficiency, it includes TweenLite, TimelineLite, TimelineMax, CSSPlugin, AttrPlugin, RoundPropsPlugin, BezierPlugin, and EasePack (all in one file).\n \n\n\n\t\n\t\tSee the Pen GSAP Overview by GreenSock (@GreenSock) on CodePen.\n\t \n\n\n\n\tQuick links\n \n\n\n\t\n\t\tGetting started\n\t \n\t\n\t\tWhat\u0027s so special about GSAP?\n\t \n\t\n\t\tFull documentation\n\t \n\t\n\t\tShowcase (examples)\n\t \n\n\n\n\tSince TweenMax extends TweenLite, it can do\u00a0ANYTHING\u00a0TweenLite can do plus more. You can mix and match TweenLite and TweenMax in your project as you please. Like TweenLite, a TweenMax instance handles tweening one or more properties of\u00a0any object\u00a0(or array of objects) over time.\n \n\n\n\tTweenMax\u0027s unique special properties\n \n\n\n\tTweenMax\u0027s syntax is identical to TweenLite\u0027s. Notice how the TweenMax tween below uses the special properties: repeat, repeatDelay, yoyo and the onRepeat event callback.\n \n\n\n\t\n//basic illustration of TweenMax\u0027s repeat, repeatDelay, yoyo and onRepeat\nvar box = document.getElementById(\"greenBox\"),\n    count = 0,\n    tween;\n\ntween = TweenMax.to(box, 2, {left:\"740px\", repeat:10, yoyo:true, onRepeat:onRepeat, repeatDelay:0.5, ease:Linear.easeNone});\n\nfunction onRepeat() {\n  count++;\n  box.innerHTML = count;\n  TweenLite.set(box, {backgroundColor:\"hsl(\" + Math.random() * 255 + \", 90%, 60%)\"});\n}\t\t\t\t\t\t\t\n\n\tSee the Pen TweenMax basic repeat and onRepeat by GreenSock (@GreenSock) on CodePen.\n\n\n\n\tStaggered animations\n \n\n\n\tTweenMax makes it easy to create staggered animations on multiple objects. The animations can overlap, run in direct sequence or have gaps between their start times. TweenMax\u0027s three stagger methods: TweenMax.staggerTo(), TweenMax.staggerFrom() and TweenMax.staggerFromTo() are literal one-line wonders.\n \n\n\n\tSee the Pen TweenMax.staggerTo() by GreenSock (@GreenSock) on CodePen.\n \n\n\n\tAdditional Methods\n \n\n\n\tTweenMax inherits a ton of methods from TweenLite and has quite a few of its own. ul.chart {width:300px;\r\n  float:left;\r\n  margin-right:80px;\r\n}\r\n\r\nul.chart li:nth-child(1){\r\n  font-weight:bold;\r\n  list-style:none;\r\n  margin-left:-20px;\r\n  font-size:20px;\r\n  margin-bottom:20px; \r\n} \n\u0026#13;\n  TweenLite and TweenMax Methods \u0026#13;\n  delay() \u0026#13;\n  delayedCall() \u0026#13;\n  duration() \u0026#13;\n  eventCallback \u0026#13;\n  from() \u0026#13;\n  fromTo() \u0026#13;\n  getTweensOf() \u0026#13;\n  invalidate() \u0026#13;\n  isActive() \u0026#13;\n  kill() \u0026#13;\n  killDelayedCallsTo() \u0026#13;\n  killTweensOf() \u0026#13;\n  pause() \u0026#13;\n  paused() \u0026#13;\n  play() \u0026#13;\n  progress() \u0026#13;\n  restart() \u0026#13;\n  resume() \u0026#13;\n  reverse() \u0026#13;\n  reversed() \u0026#13;\n  seek() \u0026#13;\n  set() \u0026#13;\n  startTime() \u0026#13;\n  time() \u0026#13;\n  timeScale() \u0026#13;\n  to() \u0026#13;\n  totalDuration() \u0026#13;\n  totalProgress() \u0026#13;\n  totalTime() \u0026#13;\n\u0026#13;\n\u0026#13;\n\u0026#13;\n  Methods exclusive to TweenMax \u0026#13;\n  getAllTweens() \u0026#13;\n  isTweening() \u0026#13;\n  killAll() \u0026#13;\n  killChildTweensOf() \u0026#13;\n  pauseAll() \u0026#13;\n  repeat() \u0026#13;\n  repeatDelay() \u0026#13;\n  resumeAll() \u0026#13;\n  staggerFrom() \u0026#13;\n  staggerFromTo() \u0026#13;\n  staggerTo() \u0026#13;\n  updateTo() \u0026#13;\n  yoyo() \u0026#13;\n\u0026#13;\n Learn more in the TweenMax documentation. \n\n",
+    "dateCreated": "2019-08-01T22:20:08+0000",
+    "datePublished": "2014-08-03T16:58:00+0000",
+    "dateModified": "2019-08-01T22:20:08+0000",
+    "pageStart": 1,
+    "pageEnd": 1,
+    "author": {
+        "@type": "Person",
+        "name": "GreenSock",
+        "image": "https://greensock.com/uploads/monthly_2019_05/avatar-jack.thumb.gif.70769a4b3709c9ceb42e42735bbb0880.gif",
+        "url": "https://greensock.com/profile/1-greensock/"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GreenSock",
+        "url": "https://greensock.com/",
+        "member": {
+            "@type": "Person",
+            "name": "GreenSock",
+            "image": "https://greensock.com/uploads/monthly_2019_05/avatar-jack.thumb.gif.70769a4b3709c9ceb42e42735bbb0880.gif",
+            "url": "https://greensock.com/profile/1-greensock/"
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://greensock.com/uploads/monthly_2019_05/avatar-jack.thumb.gif.70769a4b3709c9ceb42e42735bbb0880.gif"
+        }
+    },
+    "interactionStatistic": [
+        {
+            "@type": "InteractionCounter",
+            "interactionType": "http://schema.org/ViewAction",
+            "userInteractionCount": 1454685
+        },
+        {
+            "@type": "InteractionCounter",
+            "interactionType": "http://schema.org/FollowAction",
+            "userInteractionCount": 1
+        },
+        {
+            "@type": "InteractionCounter",
+            "interactionType": "http://schema.org/CommentAction",
+            "userInteractionCount": 0
+        }
+    ],
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://greensock.com/uploads/monthly_2014_08/1256803633_201404tweenmax.jpg.08701ae6613b1b27fbf24b129bac8626.jpg"
+    },
+    "commentCount": 0
+}	
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://www.schema.org",
+    "publisher": "https://greensock.com/#organization",
+    "@type": "WebSite",
+    "@id": "https://greensock.com/#website",
+    "mainEntityOfPage": "https://greensock.com/",
+    "name": "GreenSock",
+    "url": "https://greensock.com/",
+    "potentialAction": {
+        "type": "SearchAction",
+        "query-input": "required name=query",
+        "target": "https://greensock.com/search/?q={query}"
+    },
+    "inLanguage": [
+        {
+            "@type": "Language",
+            "name": "English (USA)",
+            "alternateName": "en-US"
+        }
+    ]
+}	
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "@id": "https://greensock.com/#organization",
+    "mainEntityOfPage": "https://greensock.com/",
+    "name": "GreenSock",
+    "url": "https://greensock.com/"
+}	
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://greensock.com/products/",
+                "name": "Products"
+            }
+        }
+    ]
+}	
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "ContactPage",
+    "url": "https://greensock.com/contact/"
+}	
+</script>
+
+
+		
+
+	
+	
+		<link rel="shortcut icon" href="https://greensock.com/uploads/monthly_2018_06/favicon.ico.4811a987b377f271db584b422f58e5a7.ico" type="image/x-icon">
+	
+
+		<link href="./TweenMax - Products - GreenSock_files/css(3)" rel="stylesheet">
+	<style type="text/css">
+  /* === Form-Specific Styles === */
+  /* stylelint-disable */
+
+  #drip-108047 {
+    background: #fff !important;
+  }
+
+  #drip-108047 .drip-content h3 {
+    color: #84bb2a !important;
+    font-size: 24px !important;
+  }
+
+  #drip-108047 .drip-submit-button {
+    background-color: #84bb2a !important;
+    font-size: 16px !important;
+  }
+
+  #drip-108047 .drip-submit-button:hover {
+    background-color: #7db228 !important;
+  }
+
+  #drip-108047 .drip-submit-button:active {
+    background-color: #77a826 !important;
+  }
+
+  #drip-108047 dl dt,
+  #drip-108047 .drip-content .drip-description,
+  #drip-108047 .drip-errors {
+    font-size: 14px !important;
+  }
+
+  #drip-108047 .drip-text-field {
+    font-size: 14px !important;
+  }
+
+  /* === Reset styles === */
+
+  .drip-lightbox h1,
+  .drip-lightbox h2,
+  .drip-lightbox h3,
+  .drip-lightbox div,
+  .drip-lightbox dl,
+  .drip-lightbox dt,
+  .drip-lightbox dd,
+  .drip-lightbox p,
+  .drip-lightbox a,
+  .drip-lightbox .drip-text-field,
+  .drip-lightbox .drip-text-field:focus,
+  .drip-lightbox .drip-submit-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    float: none;
+    width: auto;
+    background-image: none;
+    letter-spacing: 0;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    -webkit-text-shadow: none !important;
+       -moz-text-shadow: none !important;
+            text-shadow: none !important;
+  }
+
+  .drip-lightbox a {
+    text-decoration: none;
+    color: #84bb2a !important;
+  }
+
+  .drip-lightbox :focus {
+    outline: 0;
+  }
+
+  .drip-lightbox input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #A8ACB9 !important;
+  }
+  .drip-lightbox input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #A8ACB9 !important;
+  }
+  .drip-lightbox input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #A8ACB9 !important;
+  }
+  .drip-lightbox input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #A8ACB9 !important;
+  }
+
+  /* === Clearfix === */
+
+  .drip-clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .drip-clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .drip-clearfix { zoom: 1; } /* IE7 */
+
+  /* === Backdrop === */
+
+  .drip-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: #000;
+    opacity: 0;
+    -webkit-transition: opacity .3s linear;
+       -moz-transition: opacity .3s linear;
+         -o-transition: opacity .3s linear;
+            transition: opacity .3s linear;
+  }
+
+  .drip-backdrop.drip-in {
+    opacity: 0.2;
+  }
+
+  .drip-backdrop.drip-hidden {
+    display: none;
+  }
+
+  /* === Main Container === */
+
+  .drip-lightbox-wrapper * {
+    box-sizing: content-box;
+  }
+
+  /* === Content === */
+
+  .drip-lightbox .drip-content {
+    margin: 0 0 0 -190px;
+    padding: 0;
+    position: fixed;
+    width: 380px;
+    top: -25%;
+    left: 50%;
+    font-size: 100%;
+    z-index: 11000;
+    color: #333;
+    vertical-align: baseline;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 28px rgba(0,0,0,0.36);
+       -moz-box-shadow: 0px 10px 28px rgba(0,0,0,0.36);
+            box-shadow: 0px 10px 28px rgba(0,0,0,0.36);
+    -webkit-transition: opacity .3s linear, top .3s ease-out, bottom 200ms ease-in;
+       -moz-transition: opacity .3s linear, top .3s ease-out, bottom 200ms ease-in;;
+         -o-transition: opacity .3s linear, top .3s ease-out, bottom 200ms ease-in;;
+            transition: opacity .3s linear, top .3s ease-out, bottom 200ms ease-in;;
+  }
+
+  .drip-lightbox.drip-in .drip-content {
+    top: 15%;
+    opacity: 1;
+  }
+
+  .drip-lightbox.drip-hidden .drip-content {
+    display: none;
+  }
+
+  .drip-lightbox.side-image .drip-content {
+    margin-left: -325px;
+    width: 650px;
+  }
+
+  .drip-lightbox.mobile .drip-content {
+    margin: 0;
+    width: 100%;
+    left: 0;
+    top: auto;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+  }
+
+  .drip-lightbox.mobile.drip-in .drip-content {
+    top: auto;
+    bottom: 0;
+  }
+
+  .drip-lightbox.drip-scrollable .drip-content {
+    overflow-y: scroll;
+  }
+
+  /* === Teaser === */
+
+  .drip-lightbox .drip-header h2 {
+    display: block;
+    margin: 0 !important;
+    padding: 12px 0 !important;
+    font-size: 14px !important;
+    line-height: 13px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    letter-spacing: 0 !important;
+  }
+
+  /* === Panel === */
+
+  .drip-lightbox .drip-content > div.drip-panel {
+    padding: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+
+  /* === Powered By === */
+
+  .drip-lightbox .drip-powered-by {
+    padding: 8px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #A8ACB9;
+    text-align: right;
+    margin-right: 25px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .drip-lightbox .drip-powered-by a {
+    color: #A8ACB9 !important;
+    text-decoration: underline !important;
+    margin-left: 6px;
+  }
+
+  /* === Content Sections === */
+
+  .drip-lightbox.side-image .drip-form-aside {
+    width: 245px;
+    text-align: center;
+  }
+
+  .drip-lightbox.image-left .drip-form-main {
+    margin-left: 270px;
+  }
+
+  .drip-lightbox.image-right .drip-form-main {
+    margin-right: 270px;
+  }
+
+  .drip-lightbox.image-left .drip-form-aside {
+    float: left;
+  }
+
+  .drip-lightbox.image-right .drip-form-aside {
+    float: right;
+  }
+
+  @media screen and (max-width: 650px) {
+    /* prevent overriding mobile class styles */
+    .drip-lightbox.side-image:not(.mobile) .drip-content {
+      margin-left: -190px;
+      width: 380px;
+    }
+
+    .drip-lightbox.side-image .drip-form-main {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .drip-lightbox.side-image .drip-form-aside {
+      display: none;
+    }
+  }
+
+  /* === Content Headings & Paragraphs === */
+
+  .drip-lightbox .drip-content h3 {
+    display: block;
+    margin: 0 20px 0 0 !important;
+    padding: 0 0 15px 0 !important;
+    line-height: 1.4 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    color: #4477bd !important;
+    clear: none !important;
+  }
+
+  .drip-lightbox .drip-content .drip-description {
+    margin: 0;
+    padding: 0 0 20px 0;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .drip-lightbox .drip-content .drip-post-submission {
+    padding: 0;
+  }
+
+  .drip-lightbox .drip-content .drip-description a {
+    text-decoration: underline;
+  }
+
+  .drip-lightbox .drip-content .drip-description em {
+    font-style: italic;
+  }
+
+  .drip-lightbox .drip-content .drip-description ul,
+  .drip-lightbox .drip-content .drip-description ol {
+    list-style-position: outside;
+    margin: 8px 0 8px 30px;
+  }
+
+  .drip-lightbox .drip-content .drip-description ul li
+  .drip-lightbox .drip-content .drip-description ol li {
+    padding: 0;
+  }
+
+  .drip-lightbox .drip-content img.drip-image {
+    margin-bottom: 20px;
+  }
+
+  .drip-lightbox .drip-content .drip-image-center-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .drip-lightbox .drip-content img.drip-image {
+    max-width: 245px;
+    vertical-align: middle;
+  }
+
+  .drip-lightbox .drip-content a.drip-close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  .drip-lightbox .drip-content a.drip-close:hover {
+    cursor: pointer;
+  }
+
+  /* === Content Subscribe Form === */
+
+  .drip-lightbox form {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .drip-lightbox dl {
+    display: block;
+    margin: 0;
+    padding: 0 0 5px 0;
+  }
+
+  .drip-lightbox dl dt {
+    display: block;
+    padding: 0 0 5px 0;
+    /* font-size: 13px; */
+    font-weight: bold;
+  }
+
+  .drip-lightbox dl.no-labels dt {
+    display: none;
+  }
+
+  .drip-lightbox dl dd {
+    display: block;
+    padding: 0 0 8px 0;
+  }
+
+  .drip-lightbox .drip-text-field {
+    margin: 0 !important;
+    padding: 10px 12px !important;
+    height: auto !important;
+    width: 100% !important;
+    color: #4F5362 !important;
+    background-color: #fff !important;
+    border: 1px solid #A8ACB9 !important;
+    -webkit-border-radius: 3px !important;
+       -moz-border-radius: 3px !important;
+            border-radius: 3px !important;
+    -webkit-box-sizing: border-box !important;
+       -moz-box-sizing: border-box !important;
+        -ms-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+    background-image: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+  .drip-lightbox .drip-text-field:focus {
+    border-color: #9398a9 !important;
+    outline: 0;
+    background-image: none;
+    background-color: #fff !important;
+  }
+
+  .drip-lightbox.mobile .drip-text-field {
+    font-size: 16px;
+  }
+
+  .drip-lightbox .drip-errors {
+    padding: 5px 0 0 0;
+    font-weight: normal;
+    color: red;
+  }
+
+  .drip-lightbox .drip-submit-button {
+    padding: 6px 26px !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    line-height: 1.6 !important;
+    border: 0 !important;
+    -webkit-border-radius: 3px !important;
+       -moz-border-radius: 3px !important;
+            border-radius: 3px !important;
+    cursor: pointer !important;
+    background-image: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    height: auto;
+    transition: background 0.2s ease !important;
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
+       -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
+  }
+
+  .drip-lightbox .drip-submit-button:hover {
+    background-image: none !important;
+  }
+
+  .drip-lightbox .drip-submit-button:active {
+    background-image: none !important;
+  }
+
+  /* checkbox */
+
+  .drip-lightbox input,
+  .drip-lightbox textarea {
+    display: block;
+    box-shadow: none;
+    position: relative;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 3px;
+    font: inherit;
+    color: #262626;
+    padding: 12px 18px;
+    transition: border-color 300ms;
+    width: 100%;
+  }
+
+  .drip-lightbox .zenput--checkbox.hidden {
+    margin-bottom: -8px;
+    display: none;
+  }
+
+  .drip-lightbox .zenput--checkbox input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .drip-lightbox .zenput--checkbox input[type="checkbox"] ~ .zenput__checkbox-label {
+    font: inherit;
+    font-size: 16px;
+    line-height: 30px;
+    color: #262626;
+    cursor: pointer;
+    white-space: normal;
+    word-break: break-word;
+    display: block;
+    padding-left: 36px;
+    position: relative;
+    transition: color 300ms
+  }
+
+  .drip-lightbox .zenput--checkbox input[type="checkbox"] ~ .zenput__checkbox-label .zenput__checkbox-label__icon {
+    content: "";
+    display: block;
+    background: #f5f5f5;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    padding: 3px;
+    transition: background 300ms ease-out, border-color 300ms;
+  }
+
+  .drip-lightbox .zenput--checkbox input[type="checkbox"] ~ .zenput__checkbox-label .zenput__checkbox-label__icon svg {
+    opacity: 0;
+    width: 16px;
+    display: block;
+    fill: #cccccc;
+    transition: opacity 300ms ease-out;
+  }
+
+  .drip-lightbox .zenput--checkbox .zenput__checkbox-label .zenput__checkbox-label__icon .octicon-dash {
+    display: none;
+  }
+
+  .drip-lightbox .zenput--checkbox input[type="checkbox"]:checked ~ .zenput__checkbox-label {
+    color: #333 !important;
+  }
+  .drip-lightbox .zenput--checkbox input[type="checkbox"]:checked ~ .zenput__checkbox-label .zenput__checkbox-label__icon {
+    background-color: #ffffff;
+    border-color: #a8acb9;
+  }
+  .drip-lightbox .zenput--checkbox input[type="checkbox"]:checked ~ .zenput__checkbox-label .zenput__checkbox-label__icon svg {
+    fill: #84bb2a !important;
+    opacity: 1;
+  }
+  /* stylelint-enable */
+
+</style></head>
+	<body class="ipsApp ipsApp_front ipsClearfix cCmsDatabase_product ipsJS_has ipsApp_noTouch" data-controller="core.front.core.app" data-message="" data-pageapp="cms" data-pagelocation="front" data-pagemodule="pages" data-pagecontroller="page" data-pageid="1">
+		<meta itemprop="url" content="https://greensock.com/">
+		
+
+<div class="cjmg_container cjmg_container_header">
+    
+    
+    
+</div>
+<a href="https://greensock.com/tweenmax/#elContent" class="ipsHide" title="Go to main content on this page" accesskey="m">Jump to content</a>
+		
+		<div id="ipsLayout_header" class="ipsClearfix">
+			
+
+
+
+
+
+			
+<ul id="elMobileNav" class="ipsList_inline ipsResponsive_hideDesktop ipsResponsive_block" data-controller="core.front.core.mobileNav">
+	<!--
+		
+			
+			
+				
+					<li id='elMobileBreadcrumb'>
+						<a href='https://greensock.com/products/'>
+							<span>Products</span>
+						</a>
+					</li>
+				
+				
+			
+				
+				
+			
+		
+	
+	
+	
+	<li >
+		<a data-action="defaultStream" class='ipsType_light'  href='https://greensock.com/discover/'><i class='icon-newspaper'></i></a>
+	</li>
+
+	
+
+	
+		<li class='ipsJS_show'>
+			<a href='https://greensock.com/search/'><i class='fa fa-search'></i></a>
+		</li>
+	-->
+	<li data-ipsdrawer="" data-ipsdrawer-drawerelem="#elMobileDrawer">
+		<a href="https://greensock.com/tweenmax/#">
+			
+			
+				
+			
+			
+			
+			<i class="fa fa-navicon"></i>
+		</a>
+	</li>
+</ul>
+			<header>
+				<div class="ipsLayout_container ipsClearfix">
+					
+
+<a href="https://greensock.com/" id="elSiteTitle" accesskey="1"><img src="./TweenMax - Products - GreenSock_files/84c1e40ea0e759e3f1505eb1788ddf3c_greensock-logo.svg" alt="GreenSock"></a>
+
+                  <div class="cMenuContainer ipsPos_right">
+					
+                    
+
+
+<ul id="elUserNav" class="ipsList_inline cSignedOut ipsClearfix ipsResponsive_hidePhone ipsResponsive_block">
+    <li id="elSignInLink">
+        <a href="https://greensock.com/tweenmax/#elLoginHeaderPopup_menu" id="elLoginHeaderPopup" data-ipsmenu="" class="ipsButton ipsButton_primary blackBtn">Login / Create Account <i class="fa fa-caret-down"></i></a>
+        <div id="elLoginHeaderPopup_menu" class="ipsMenu ipsMenu_bottomRight ipsHide">
+        <div class="ipsClearfix cInnerContent">
+          <div class="ipsPos_left ipsPad" id="elLoginHeader_signup">
+            <h2>Create an Account</h2>
+            <ul class="createAcctList">
+                <li>It's free</li>
+                <li>Participate in the <a href="https://greensock.com/tweenmax/">forums</a></li>
+                <li>Get updates on the products you use</li>
+                <li>Learn about exclusive offers and more!</li>
+            </ul>
+            <a class="ipsButton grayBtn" href="https://greensock.com/register/">Create an account</a>
+          </div>
+          <div class="ipsPos_left ipsPad" id="elLoginHeader_login">
+            <h2>Sign In</h2>
+            <form action="https://greensock.com/login/" method="post" id="login_header">
+            <input type="hidden" name="_processLogin" value="usernamepassword">
+            <input type="hidden" name="csrfKey" value="20b755591f67c85dbcd0e8d04004e601">
+            <input type="hidden" name="remember_me" value="0">
+            <input type="hidden" name="remember_me_checkbox" value="1">
+            <input class="createAcctInput" type="text" name="auth" id="auth" placeholder="Email Address">
+            <input class="createAcctInput ipsSpacer_bottom" type="password" name="password" id="password" placeholder="Password">
+            <br>
+            <input type="submit" value="Login" class="ipsButton grayBtn ipsSpacer_right">
+            <a class="ipsType_small" href="https://greensock.com/lostpassword/">Forgot your Password?</a>
+            </form>
+          </div>
+      </div>
+    </div>
+    </li>
+</ul>
+
+
+
+<div class="cjmg_container cjmg_container_hw">
+    
+    
+<div id="cjmg_header_menu_header_hw" class="cjmg ipsClearfix cjmg_loc_hw  cjmg_hide_mobile">
+    <nav id="header_hw_nav" class="cjmg_nav ipsClearfix cjmg_widget">
+        <ul id="header_menu" class="ipsClearfix cjmg_block_nav " data-ipscjmgm="" data-ipscjmgm-settings="{&quot;type&quot;:&quot;1&quot;,&quot;behavior&quot;:1,&quot;animation&quot;:&quot;slide&quot;,&quot;speed&quot;:&quot;regular&quot;,&quot;hover&quot;:500,&quot;location&quot;:&quot;hw&quot;}">
+            
+                
+                    
+
+<li id="1" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_1" href="https://greensock.com/learning/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Learning</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="2" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/blog/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Blog</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="3" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/licensing/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Licensing</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="4" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/about/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">About</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                
+            
+        </ul>
+    </nav>
+</div>
+
+
+    
+</div>
+
+                    <br class="ipsClear">
+                    
+
+<div id="elSearchWrapper" class="searchWrapper ipsPos_right">
+  <div id="elSearch" class="innerSearchWrapper" data-controller="core.front.core.quickSearch">
+    <form accept-charset="utf-8" action="https://greensock.com/search/?do=quicksearch" method="post">
+      <input class="searchInput" type="search" id="elSearchField" placeholder="Search..." name="q" autocomplete="off">
+      <button class="cSearchSubmit" type="submit">
+        <img src="./TweenMax - Products - GreenSock_files/glass.png" alt="search" width="42" height="42">
+      </button>
+
+      <div id="elSearchExpanded">
+        <div class="ipsMenu_title">
+          Search In
+        </div>
+        <ul class="ipsSideMenu_list ipsSideMenu_withRadios ipsSideMenu_small ipsType_normal" data-ipssidemenu="" data-ipssidemenu-type="radio" data-ipssidemenu-responsive="false" data-role="searchContexts">
+          <li>
+            <span class="ipsSideMenu_item ipsSideMenu_itemActive" data-ipsmenuvalue="all">
+              <input type="radio" name="type" value="all" checked="" id="elQuickSearchRadio_type_all">
+              <label for="elQuickSearchRadio_type_all" id="elQuickSearchRadio_type_all_label">Everywhere</label>
+            </span>
+          </li>
+          
+          
+          <li>
+            <span class="ipsSideMenu_item" data-ipsmenuvalue="cms_records15">
+              <input type="radio" name="type" value="cms_records15" id="elQuickSearchRadio_type_cms_records15">
+              <label for="elQuickSearchRadio_type_cms_records15" id="elQuickSearchRadio_type_cms_records15_label">Products</label>
+            </span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="ipsSideMenu_item" data-ipsmenuvalue="contextual_{&quot;type&quot;:&quot;cms_records15&quot;,&quot;nodes&quot;:3}">
+              <input type="radio" name="type" value="contextual_{&quot;type&quot;:&quot;cms_records15&quot;,&quot;nodes&quot;:3}" id="elQuickSearchRadio_type_contextual_68c32fe8037e979455132eb12094eb15">
+              <label for="elQuickSearchRadio_type_contextual_68c32fe8037e979455132eb12094eb15" id="elQuickSearchRadio_type_contextual_68c32fe8037e979455132eb12094eb15_label">This Category</label>
+            </span>
+          </li>
+          
+          <li>
+            <span class="ipsSideMenu_item" data-ipsmenuvalue="contextual_{&quot;type&quot;:&quot;cms_records15&quot;,&quot;item&quot;:1}">
+              <input type="radio" name="type" value="contextual_{&quot;type&quot;:&quot;cms_records15&quot;,&quot;item&quot;:1}" id="elQuickSearchRadio_type_contextual_4f7abf7795784aee4292e102319cc552">
+              <label for="elQuickSearchRadio_type_contextual_4f7abf7795784aee4292e102319cc552" id="elQuickSearchRadio_type_contextual_4f7abf7795784aee4292e102319cc552_label">This Product</label>
+            </span>
+          </li>
+          
+          
+          <li data-role="showMoreSearchContexts">
+            <span class="ipsSideMenu_item" data-action="showMoreSearchContexts" data-exclude="cms_records15">
+              More options...
+            </span>
+          </li>
+        </ul>
+        <div class="ipsMenu_title">
+          Find results that contain...
+        </div>
+        <ul class="ipsSideMenu_list ipsSideMenu_withRadios ipsSideMenu_small ipsType_normal" role="radiogroup" data-ipssidemenu="" data-ipssidemenu-type="radio" data-ipssidemenu-responsive="false" data-filtertype="andOr">
+          
+          <li>
+            <span class="ipsSideMenu_item ipsSideMenu_itemActive" data-ipsmenuvalue="or">
+              <input type="radio" name="search_and_or" value="or" checked="" id="elRadio_andOr_or">
+              <label for="elRadio_andOr_or" id="elField_andOr_label_or"><em>Any</em> of my search term words</label>
+            </span>
+          </li>
+          
+          <li>
+            <span class="ipsSideMenu_item " data-ipsmenuvalue="and">
+              <input type="radio" name="search_and_or" value="and" id="elRadio_andOr_and">
+              <label for="elRadio_andOr_and" id="elField_andOr_label_and"><em>All</em> of my search term words</label>
+            </span>
+          </li>
+          
+        </ul>
+        <div class="ipsMenu_title">
+          Find results in...
+        </div>
+        <ul class="ipsSideMenu_list ipsSideMenu_withRadios ipsSideMenu_small ipsType_normal" role="radiogroup" data-ipssidemenu="" data-ipssidemenu-type="radio" data-ipssidemenu-responsive="false" data-filtertype="searchIn">
+          <li>
+            <span class="ipsSideMenu_item ipsSideMenu_itemActive" data-ipsmenuvalue="all">
+              <input type="radio" name="search_in" value="all" checked="" id="elRadio_searchIn_and">
+              <label for="elRadio_searchIn_and" id="elField_searchIn_label_all">Content titles and body</label>
+            </span>
+          </li>
+          <li>
+            <span class="ipsSideMenu_item" data-ipsmenuvalue="titles">
+              <input type="radio" name="search_in" value="titles" id="elRadio_searchIn_titles">
+              <label for="elRadio_searchIn_titles" id="elField_searchIn_label_titles">Content titles only</label>
+            </span>
+          </li>
+        </ul>
+      </div>
+      </form></div>
+
+    <script>
+      document.querySelector("header .cSearchSubmit").addEventListener("click", function(e) {
+        if(document.querySelector("header .searchInput").value.length === 0) {
+          e.preventDefault();
+          this.classList.add("open");
+          TweenMax.to("header .searchWrapper, header .innerSearchWrapper", 0.25, {width: 220, onComplete: function() {
+            document.querySelector(".searchInput").focus();
+          }});
+        } else {
+          // If something in input, do search
+        }
+      });
+    </script>
+    
+</div>
+
+                    
+
+<div class="cjmg_container cjmg_container_hw">
+    
+    
+<div id="cjmg_main_menu_main_hw" class="cjmg ipsClearfix cjmg_loc_hw  cjmg_hide_mobile">
+    <nav id="main_hw_nav" class="cjmg_nav ipsClearfix cjmg_widget" data-ipscjmore="">
+        <ul id="main_menu" class="ipsClearfix cjmg_bar " data-ipscjmgm="" data-ipscjmgm-settings="{&quot;type&quot;:&quot;0&quot;,&quot;behavior&quot;:1,&quot;animation&quot;:&quot;slide&quot;,&quot;speed&quot;:&quot;fast&quot;,&quot;hover&quot;:500,&quot;location&quot;:&quot;hw&quot;}">
+            
+                
+                    
+
+<li id="15" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_anchor " style="padding-right: 25px; border-radius: 5px 5px 0px 0px;">
+    
+    <a id="elNavigation_app_15" href="https://greensock.com/products/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Products</span>
+        
+    </a>
+    
+    
+    
+    <i class="cjmg_arrow cjmg_arrow_click fa fa-500px pull-right" style="display: none;"></i>
+    
+    <div class="cjmg_mega  cjmg_child_container ipsClearfix cjmg_shadow" style="z-index: 2000; cursor: default; box-sizing: border-box; width: 200px; visibility: hidden; opacity: 0; overflow: hidden; display: block;">
+        
+        <ul class="cjmg_child_items ipsClearfix">
+            
+            
+
+<li id="16" data-role="navItem" class="ipsClearfix cjmg_child_item  cjmg_no_subs cjmg_first  ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/gsap/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">GSAP</span>
+        
+    </a>
+    
+    
+</li>
+
+
+            
+            
+
+<li id="22" data-role="navItem" class="ipsClearfix cjmg_child_item  cjmg_no_subs cjmg_first  ">
+    
+    <a id="elNavigation_app_22" href="https://greensock.com/gsap-plugins/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Plugins for GSAP</span>
+        
+    </a>
+    
+    
+</li>
+
+
+            
+            
+
+<li id="19" data-role="navItem" class="ipsClearfix cjmg_child_item  cjmg_no_subs cjmg_first  ">
+    
+    <a id="elNavigation_app_19" href="https://greensock.com/gsdevtools/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">GSDevTools</span>
+        
+    </a>
+    
+    
+</li>
+
+
+            
+            
+
+<li id="20" data-role="navItem" class="ipsClearfix cjmg_child_item  cjmg_no_subs cjmg_first  ">
+    
+    <a id="elNavigation_app_20" href="https://greensock.com/draggable/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Draggable</span>
+        
+    </a>
+    
+    
+</li>
+
+
+            
+            
+
+<li id="21" data-role="navItem" class="ipsClearfix cjmg_child_item  cjmg_no_subs cjmg_first  ">
+    
+    <a id="elNavigation_app_21" href="https://greensock.com/SplitText/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">SplitText</span>
+        
+    </a>
+    
+    
+</li>
+
+
+            
+        </ul>
+        
+        
+    </div>
+    
+<i class="fa fa-angle-down" style="position: absolute; right: 8px; top: 13px;"></i></li>
+
+
+                
+                    
+
+<li id="6" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/showcase/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Showcase</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="7" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_7" href="https://greensock.com/docs/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Docs</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="8" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_forums" href="https://greensock.com/forums/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Forums</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                    
+
+<li id="9" data-role="navItem" class="ipsClearfix cjmg_parent_item  cjmg_no_subs ">
+    
+    <a id="elNavigation_app_cms" href="https://greensock.com/club/" class=" cjmg_click" style="">
+        
+        <span class="cjmg_name">Club GreenSock</span>
+        
+    </a>
+    
+    
+</li>
+
+
+                
+                
+                <li id="cjmg_more" class="ipsClearfix cjmg_parent_item cjmg_anchor
+     ipsHide" data-role="navItem">
+                    <a href="https://greensock.com/tweenmax/#" id="elNavigation_app_more" class="cjmg_click">
+                        <span>More</span>
+                        
+                    </a>
+                    
+                    <i class="cjmg_arrow cjmg_arrow_click fa fa-angle-down pull-right"></i>
+                    
+                    <div class="cjmg_mega cjmg_child_container ipsClearfix cjmg_shadow" style="z-index: 2000">
+                        <ul class="cjmg_child_items ipsClearFix">
+                        </ul>
+                    </div>
+                </li>
+                
+            
+        </ul>
+    </nav>
+</div>
+
+
+    
+</div>
+
+                    
+                  </div>
+				</div>
+			</header>
+
+		</div>
+		<main id="ipsLayout_body" class="ipsLayout_container">
+          <div id="breadcrumbWrapper">
+          
+<nav class="ipsBreadcrumb ipsBreadcrumb_top ipsFaded_withHover">
+	
+  
+		
+
+	<nav data-controller="core.front.core.navBar" class="ipsNavBar_noSubBars" id="ips_uid_866_2">
+		<div class="ipsNavBar_primary ipsLayout_container ipsNavBar_noSubBars ipsClearfix ">
+			
+			<ul data-role="primaryNavBar" class="ipsResponsive_showDesktop ipsResponsive_block">
+				
+
+
+	
+		
+		
+		<li id="elNavSecondary_31" data-role="navBarItem" data-navapp="core" data-navext="Leaderboard" data-originalwidth="109">
+			
+			
+				<a href="https://greensock.com/leaderboard/" data-navitem-id="31">
+					Leaderboard
+				</a>
+			
+			
+		</li>
+	
+	
+
+	
+	
+
+	
+	
+
+				<li class="ipsHide" id="elNavigationMore" data-role="navMore" style="">
+					<a href="https://greensock.com/tweenmax/#" data-ipsmenu="" data-ipsmenu-appendto="#elNavigationMore" id="elNavigationMore_dropdown">More <i class="fa fa-caret-down"></i></a><ul class="ipsHide ipsMenu ipsMenu_auto" id="elNavigationMore_dropdown_menu" data-role="moreDropdown"></ul>
+					<ul class="ipsNavBar_secondary ipsHide" data-role="secondaryNavBar">
+						<li class="ipsHide" id="elNavigationMore_more" data-role="navMore">
+							<a href="https://greensock.com/tweenmax/#" data-ipsmenu="" data-ipsmenu-appendto="#elNavigationMore_more" id="elNavigationMore_more_dropdown">More <i class="fa fa-caret-down"></i></a>
+							
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+<div class="cjmg_container cjmg_container_primary">
+    
+    
+    
+</div>
+
+
+
+<script>
+var containerLi = document.querySelector("#elNavigation_app_15").parentElement
+containerLi.addEventListener("mouseenter", openMenu);
+containerLi.addEventListener("mouseleave", closeMenu);
+
+// Make clicking on "Products" go to the products page
+var productAnchor = document.querySelector("#elNavigation_app_15");
+productAnchor.href = '/products/';
+var productSpan = productAnchor.querySelector("span");
+productAnchor.addEventListener("mouseenter", function() {
+	TweenMax.set(productSpan, {textDecoration: "underline"});
+});
+productAnchor.addEventListener("mouseleave", function() {
+	TweenMax.set(productSpan, {textDecoration: "none"});
+});
+
+// Hide the original arrow
+var oldArrow = document.querySelector(".cjmg_arrow_click.pull-right");
+TweenMax.set(oldArrow, {display: "none"});
+
+// Create a new arrow to use
+var arrow = document.createElement("i");
+arrow.className = "fa fa-angle-down";
+arrow.style.position = "absolute";
+arrow.style.right = "8px";
+if(innerWidth > 1069)
+	arrow.style.top = "13px";
+else
+    arrow.style.top = "17px";
+containerLi.appendChild(arrow);
+TweenMax.set(containerLi, {borderRadius: "5px 5px 0 0", paddingRight: 25});
+
+// Replace the behavior with our own
+var dropMenu = containerLi.querySelector(".cjmg_mega");
+TweenMax.set(dropMenu, {display: "block", overflow: "hidden", autoAlpha: 0, width: 200, boxSizing: "border-box", cursor: "default"});
+var liText = containerLi.querySelector(".cjmg_name");
+function openMenu() {
+	TweenMax.set(dropMenu, {autoAlpha: 1, height: "auto"});
+	TweenMax.from(dropMenu, 0.2, {height: 0, autoAlpha: 0});
+
+	TweenMax.to(containerLi, 0.2, {backgroundColor: "white"});
+	TweenMax.to(liText, 0.2, {color: "#4f931b"});
+
+	TweenMax.to(arrow, 0.2, {rotation: "-180deg", color: "#4f931b"});
+}
+
+function closeMenu() {
+	TweenMax.to(dropMenu, 0.2, {height: 0, autoAlpha: 0});
+
+	TweenMax.to(containerLi, 0.2, {backgroundColor: "transparent"});
+	TweenMax.to(liText, 0.2, {color: "#bebebe"});
+
+	TweenMax.to(arrow, 0.2, {rotation: "0deg", color: "#606060"});
+}
+
+</script>
+	
+	<!--ul class='ipsList_inline ipsPos_right'>
+		
+		<li >
+			<a data-action="defaultStream" class='ipsType_light '  href='https://greensock.com/discover/'><i class='icon-newspaper'></i> <span>All Activity</span></a>
+		</li>
+		
+	</ul-->
+
+	<ul data-role="breadcrumbList">
+		<li>
+			<a title="Home" href="https://greensock.com/">
+				<span><i class="fa fa-home"></i> Home <i class="fa fa-angle-right"></i></span>
+			</a>
+		</li>
+		
+		
+			<li>
+				
+					<a href="https://greensock.com/products/">
+						<span>Products <i class="fa fa-angle-right"></i></span>
+					</a>
+				
+			</li>
+		
+			<li>
+				
+					TweenMax
+				
+			</li>
+		
+	</ul>
+</nav>
+          </div>
+			<div id="ipsLayout_contentArea">
+				<div id="ipsLayout_contentWrapper">
+                  <div class="table-container">
+					
+					<div id="ipsLayout_mainArea">
+
+<div class="cjmg_container cjmg_container_bodyTop">
+    
+    
+    
+</div>
+
+						<a id="elContent"></a>
+						
+						
+						
+						
+
+	
+
+
+
+
+						
+<div id="elCmsPageWrap" data-pageid="11">
+
+
+<!-- Header image -->
+
+
+<!-- Header video (YouTube) -->
+
+
+<!-- Header advcode -->
+
+
+<div class="cInnerContent ipsSpacer_top">
+  <div class="ipsGrid ipsGrid_collapseTablet">
+    <div class="record-content ipsGrid_span9">
+      <div class="ipsPageHeader ipsClearfix ipsSpacer_bottom">
+        
+
+        
+
+        
+
+        <div class="ipsPos_right ipsResponsive_hidePhone">
+          
+
+
+
+        </div>
+
+        <h1 class="ipsType_pageTitle ipsPad_top_double">
+          
+          <span class="ipsType_break">Tween<span>Max</span></span>
+          
+        </h1>
+
+        
+<div class="ipsType_center ipsPos_right" data-followapp="cms" data-followarea="records15" data-followid="1" data-controller="core.front.core.followButton">
+	
+		<span class="ipsType_light ipsType_blendLinks"><i class="fa fa-info-circle"></i> <a href="https://greensock.com/login/" title="Go to the sign in page">Sign in to follow this</a>&nbsp;&nbsp;</span>
+	
+	
+
+	<div class="ipsFollow ipsPos_middle ipsButton ipsButton_link ipsButton_verySmall " data-role="followButton">
+		
+			<a href="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=notifications&amp;do=followers&amp;follow_app=cms&amp;follow_area=records15&amp;follow_id=1" title="See who follows this" class="ipsType_blendLinks ipsType_noUnderline" data-ipstooltip="" data-ipsdialog="" data-ipsdialog-size="narrow" data-ipsdialog-title="Who follows this">Followers</a>
+			<a class="ipsCommentCount" href="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=notifications&amp;do=followers&amp;follow_app=cms&amp;follow_area=records15&amp;follow_id=1" title="See who follows this" data-ipstooltip="" data-ipsdialog="" data-ipsdialog-size="narrow" data-ipsdialog-title="Who follows this">3</a>
+		
+	</div>
+
+</div>
+
+      </div>
+
+      <hr class="ipsHr">
+
+      <div class="ipsClearfix ipsSpacer_bottom ipsType_light ipsType_medium">
+        <div class="ipsPos_left">
+          <time datetime="2014-08-03T16:58:00Z" title="08/03/2014 04:58  PM" data-short="5 yr">August 3, 2014</time> | 
+
+<a href="https://greensock.com/profile/1-greensock/" data-ipshover="" data-ipshover-target="https://greensock.com/profile/1-greensock/?do=hovercard&amp;referrer=https%253A%252F%252Fgreensock.com%252Ftweenmax%252F" title="Go to GreenSock&#39;s profile" class="ipsType_break">GreenSock</a>
+        </div>
+        <div class="ipsPos_right">
+          <i class="fa fa-eye"></i> 1454685
+        </div>
+      </div>	
+
+      
+      
+
+
+	
+		<ul class="ipsTags ipsList_inline ">
+			
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/gsap/" class="ipsTag" title="Find other content tagged with &#39;gsap&#39;" rel="tag"><span>gsap</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/tweenmax/" class="ipsTag" title="Find other content tagged with &#39;tweenmax&#39;" rel="tag"><span>tweenmax</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/javascript/" class="ipsTag" title="Find other content tagged with &#39;javascript&#39;" rel="tag"><span>javascript</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/tweening/" class="ipsTag" title="Find other content tagged with &#39;tweening&#39;" rel="tag"><span>tweening</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/animation/" class="ipsTag" title="Find other content tagged with &#39;animation&#39;" rel="tag"><span>animation</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/html5/" class="ipsTag" title="Find other content tagged with &#39;html5&#39;" rel="tag"><span>html5</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/tween/" class="ipsTag" title="Find other content tagged with &#39;tween&#39;" rel="tag"><span>tween</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/featured/" class="ipsTag" title="Find other content tagged with &#39;featured&#39;" rel="tag"><span>featured</span></a>
+	
+</li>
+				
+					
+
+
+<li>
+	<a href="https://greensock.com/tags/core/" class="ipsTag" title="Find other content tagged with &#39;core&#39;" rel="tag"><span>core</span></a>
+	
+</li>
+				
+			
+			
+		</ul>
+		
+	
+
+      	
+
+      
+
+      <article class="ipsContained ipsSpacer_top">
+        <div class="ipsClearfix">
+          <section class="ipsType_richText ipsType_normal" data-controller="core.front.core.lightboxedImages">
+<p>
+	TweenMax is the most feature-packed (and popular) animation tool in the <a href="https://greensock.com/gsap/" rel="">GSAP</a> arsenal. For convenience and loading efficiency, it includes <a href="https://greensock.com/docs/TweenLite" rel="">TweenLite</a>, <a href="https://greensock.com/docs/TimelineLite" rel="">TimelineLite</a>, <a href="https://greensock.com/docs/TimelineMax" rel="">TimelineMax</a>, <a href="https://greensock.com/docs/Plugins/CSSPlugin" rel="">CSSPlugin</a>, <a href="https://greensock.com/docs/Plugins/AttrPlugin" rel="">AttrPlugin</a>, <a href="https://greensock.com/docs/Plugins/RoundPropsPlugin" rel="">RoundPropsPlugin</a>, <a href="https://greensock.com/docs/Plugins/BezierPlugin" rel="">BezierPlugin</a>, and EasePack (all in one file).
+</p>
+
+<div class="iframe-container" style="height: 1400px; padding-bottom: 0px;">
+	<div class="cp_embed_wrapper"><iframe name="cp_embed_1" src="./TweenMax - Products - GreenSock_files/djXzyR.html" scrolling="no" frameborder="0" height="1400" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow:hidden; display:block;" id="cp_embed_djXzyR"></iframe></div>
+</div>
+
+<h2>
+	Quick links
+</h2>
+
+<ul class="compact">
+	<li>
+		<a href="https://greensock.com/get-started-js" rel="">Getting started</a>
+	</li>
+	<li>
+		<a href="https://greensock.com/why-gsap" rel="">What's so special about GSAP?</a>
+	</li>
+	<li>
+		<a href="https://greensock.com/docs/TweenMax" rel="">Full documentation</a>
+	</li>
+	<li>
+		<a href="https://greensock.com/examples-showcases" rel="">Showcase (examples)</a>
+	</li>
+</ul>
+
+<p>
+	Since TweenMax extends TweenLite, it can do&nbsp;<b>ANYTHING</b>&nbsp;TweenLite can do plus more. You can mix and match TweenLite and TweenMax in your project as you please. Like TweenLite, a TweenMax instance handles tweening one or more properties of&nbsp;<b>any object</b>&nbsp;(or array of objects) over time.
+</p>
+
+<h2>
+	TweenMax's unique special properties
+</h2>
+
+<p>
+	TweenMax's syntax is identical to TweenLite's. Notice how the TweenMax tween below uses the special properties: <code>repeat</code>, <code>repeatDelay</code>, <code>yoyo</code> and the <code>onRepeat</code> event callback.
+</p>
+
+<div class="cp_embed_wrapper"><iframe name="cp_embed_2" src="./TweenMax - Products - GreenSock_files/uyfDH.html" scrolling="no" frameborder="0" height="300" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow:hidden; display:block;" id="cp_embed_uyfDH"></iframe></div>
+
+<h2>
+	Staggered animations
+</h2>
+
+<p>
+	TweenMax makes it easy to create staggered animations on multiple objects. The animations can overlap, run in direct sequence or have gaps between their start times. TweenMax's three stagger methods: <code><a href="https://greensock.com/docs/TweenMax/staggerTo" rel="">TweenMax.staggerTo()</a></code>, <code><a href="https://greensock.com/docs/TweenMax/staggerFrom" rel="">TweenMax.staggerFrom()</a></code> and <code><a href="https://greensock.com/docs/TweenMax/staggerFromTo" rel="">TweenMax.staggerFromTo()</a></code> are literal one-line wonders.
+</p>
+
+<div class="cp_embed_wrapper"><iframe name="cp_embed_3" src="./TweenMax - Products - GreenSock_files/HxzEl.html" scrolling="no" frameborder="0" height="290" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow:hidden; display:block;" id="cp_embed_HxzEl"></iframe></div>
+
+<h2>
+	Additional Methods
+</h2>
+
+<p>
+	TweenMax inherits a ton of methods from TweenLite and has quite a few of its own. <style>ul.chart {width:300px;
+  float:left;
+  margin-right:80px;
+}
+
+ul.chart li:nth-child(1){
+  font-weight:bold;
+  list-style:none;
+  margin-left:-20px;
+  font-size:20px;
+  margin-bottom:20px; 
+}</style></p><ul class="chart compact">
+  <li>TweenLite and TweenMax Methods</li>
+  <li>delay()</li>
+  <li>delayedCall()</li>
+  <li>duration()</li>
+  <li>eventCallback</li>
+  <li>from()</li>
+  <li>fromTo()</li>
+  <li>getTweensOf()</li>
+  <li>invalidate()</li>
+  <li>isActive()</li>
+  <li>kill()</li>
+  <li>killDelayedCallsTo()</li>
+  <li>killTweensOf()</li>
+  <li>pause()</li>
+  <li>paused()</li>
+  <li>play()</li>
+  <li>progress()</li>
+  <li>restart()</li>
+  <li>resume()</li>
+  <li>reverse()</li>
+  <li>reversed()</li>
+  <li>seek()</li>
+  <li>set()</li>
+  <li>startTime()</li>
+  <li>time()</li>
+  <li>timeScale()</li>
+  <li>to()</li>
+  <li>totalDuration()</li>
+  <li>totalProgress()</li>
+  <li>totalTime()</li>
+</ul>
+
+<ul class="chart compact">
+  <li>Methods exclusive to TweenMax</li>
+  <li>getAllTweens()</li>
+  <li>isTweening()</li>
+  <li>killAll()</li>
+  <li>killChildTweensOf()</li>
+  <li>pauseAll()</li>
+  <li>repeat()</li>
+  <li>repeatDelay()</li>
+  <li>resumeAll()</li>
+  <li>staggerFrom()</li>
+  <li>staggerFromTo()</li>
+  <li>staggerTo()</li>
+  <li>updateTo()</li>
+  <li>yoyo()</li>
+</ul>
+<div style="clear:both;"></div> Learn more in the <a href="https://greensock.com/docs/TweenMax" rel="">TweenMax documentation</a>. <script async="" src="./TweenMax - Products - GreenSock_files/ei.js(1).download"></script>
+<p></p>
+</section>
+
+          
+
+          
+        </div>
+        
+
+        <div class="ipsItemControls">
+          
+          
+
+	<div data-controller="core.front.core.reaction" class="ipsItemControls_right ipsClearfix ">	
+		<div class="ipsReact ipsPos_right">
+			
+				
+				<div class="ipsReact_blurb ipsHide" data-role="reactionBlurb">
+					
+				</div>
+			
+			
+			
+		</div>
+	</div>
+
+          
+          <ul class="ipsToolList ipsToolList_horizontal ipsPos_left ipsClearfix ipsResponsive_noFloat ipsItemControls_left">
+            
+            
+            
+          </ul>
+        </div>
+      </article>
+    </div>
+    
+    <div class="ipsGrid_span3">
+      
+<div class="cBlackContent ipsType_center card ipsPad">
+  <img src="./TweenMax - Products - GreenSock_files/join-club.png">
+  <p>Get an all-access pass to premium plugins, offers, and more!</p>
+  <a class="blackBtn ipsButton" href="https://greensock.com/club/">Join the Club</a>
+</div>
+      
+
+<div class="showcaseSlideshow card ipsWidget_inner">
+  <div class="top ipsClearfix">
+    <h3 class="ipsWidget_title ipsPos_left ipsPad ipsType_uppercase">Showcases</h3>
+    <div class="right-arrow arrow ipsPos_right">
+      <img src="./TweenMax - Products - GreenSock_files/right-arrow.jpg" width="49" height="51" style="visibility: inherit; opacity: 0.4;"></div>
+    <div class="left-arrow arrow ipsPos_right">
+      <img src="./TweenMax - Products - GreenSock_files/left-arrow.jpg" width="49" height="51" style="visibility: inherit; opacity: 0.4;">
+    </div>
+  </div>
+
+  <div class="bottom ipsPad relative">
+    
+    <div class="showcase" style="z-index: 168; visibility: inherit; opacity: 0.679644;">
+      <a href="https://greensock.com/bacon-clubhouse/" title="View baconclubhouse.no/en">
+        
+        <img alt="Bacon Clubhouse" src="./TweenMax - Products - GreenSock_files/2116532836_201512showcase-bacon-clubhouse.jpg.930fcba237ac6da28e1b53fca86ae740.jpg">
+        
+        <h3 class="ipsSpacer_top">Bacon Clubhouse</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/truth-labs/" title="View http://truthlabs.com/">
+        
+        <img alt="Truth Labs" src="./TweenMax - Products - GreenSock_files/2054905754_201705showcase-truthlabs.jpg.a7bed8b7ac486c2e810821352a00ab11.jpg">
+        
+        <h3 class="ipsSpacer_top">Truth Labs</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/i-buongiorno/" title="View ibuongiorno.com">
+        
+        <img alt="I Buongiorno" src="./TweenMax - Products - GreenSock_files/1689241116_201705shocase-wines-from-salento.jpg.7599ff0e782f86c5f30587eafa12f561.jpg">
+        
+        <h3 class="ipsSpacer_top">I Buongiorno</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/uber/" title="View ride.uber.com/en_US/">
+        
+        <img alt="Uber" src="./TweenMax - Products - GreenSock_files/725486820_201701shocase-uber.jpg.486212262178fa53671a8c62a427336a.jpg">
+        
+        <h3 class="ipsSpacer_top">Uber</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/toujours-jaune/" title="View toujoursjaune.com">
+        
+        <img alt="Toujours Jaune" src="./TweenMax - Products - GreenSock_files/2070647108_201809showcase-toujours.jpg.e386da08696bc7e84f061d9e65336bce.jpg">
+        
+        <h3 class="ipsSpacer_top">Toujours Jaune</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/noteworthies/" title="View noteworthi.es/">
+        
+        <img alt="Noteworthies" src="./TweenMax - Products - GreenSock_files/563948479_201802showcase-noteworthies.jpg.703539c55df9aa8dca48c334fbeaa590.jpg">
+        
+        <h3 class="ipsSpacer_top">Noteworthies</h3>
+      </a>
+    </div>
+    
+    <div class="showcase" style="z-index: 100; visibility: hidden; opacity: 0;">
+      <a href="https://greensock.com/bank-of-england/" title="View edu.bankofengland.co.uk">
+        
+        <img alt="Bank of England" src="./TweenMax - Products - GreenSock_files/1286500479_201706showcase-bankofengland.jpg.0e38c2d3d777d3a9df51f9d4a2fd4f0a.jpg">
+        
+        <h3 class="ipsSpacer_top">Bank of England</h3>
+      </a>
+    </div>
+    
+
+    <div class="showcaseFiller"></div>
+    
+    <div class="showcaseButtons ipsType_center">
+      <a href="https://greensock.com/examples-showcases/" class="grayBtn ipsButton">View All</a>
+      <a href="https://greensock.com/contact%3Ffor=showcase/" class="grayBtn ipsButton">Submit a Showcase</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  var showcases = document.querySelectorAll('.showcaseSlideshow .showcase');
+  var currentShowcase = 0;
+
+  var firstItem = showcases[0];
+  TweenMax.set(firstItem, {autoAlpha:1, zIndex:200});
+  TweenMax.set('.showcaseSlideshow .arrow img', {autoAlpha:0.4});
+
+  document.querySelector('.showcaseSlideshow .right-arrow').addEventListener("click", function () {
+    currentShowcase++;
+    TweenMax.killDelayedCallsTo(nextShowcase);
+    changeShowcase();
+  });
+  document.querySelector('.showcaseSlideshow .left-arrow').addEventListener("click", function () {
+    currentShowcase--;
+    TweenMax.killDelayedCallsTo(nextShowcase);
+    changeShowcase();
+  });
+
+  function nextShowcase() {
+    currentShowcase++;
+    changeShowcase();
+    TweenMax.delayedCall(3, nextShowcase);
+  }
+
+  function changeShowcase() {
+    if (currentShowcase >= showcases.length) {
+      currentShowcase = 0;
+    }
+    if (currentShowcase < 0) {
+      currentShowcase = showcases.length-1;
+    }
+    var currentShowcaseItem = showcases[currentShowcase];
+
+    TweenMax.to('.showcaseSlideshow .showcase', .25, {autoAlpha:0, overwrite:1, zIndex:100});
+    TweenMax.to(currentShowcaseItem, .5, {autoAlpha:1, delay:.25, zIndex:200});
+  }
+  
+  document.querySelectorAll('.showcaseSlideshow .arrow img').forEach(function(img) {
+    img.addEventListener("mouseenter", function() {
+      TweenMax.to(this, .25, {autoAlpha:1});
+    });
+    img.addEventListener("mouseleave", function() {
+      TweenMax.to(this, .25, {autoAlpha:0.4});
+    });
+  });
+
+  TweenMax.delayedCall(3, nextShowcase);
+</script>
+
+      
+<div class="ipsPad" id="elInspirationalSidebar">
+  
+<p>
+	Cook up some delightful animation today with a generous dose of GSAP.
+</p>
+
+  <cite>- Team GreenSock</cite>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="cInnerContent">
+
+  <div class="ipsResponsive_showPhone ipsResponsive_block ipsSpacer_top">
+    
+<div class="ipsType_center ipsPos_right" data-followapp="cms" data-followarea="records15" data-followid="1" data-controller="core.front.core.followButton">
+	
+		<span class="ipsType_light ipsType_blendLinks"><i class="fa fa-info-circle"></i> <a href="https://greensock.com/login/" title="Go to the sign in page">Sign in to follow this</a>&nbsp;&nbsp;</span>
+	
+	
+
+	<div class="ipsFollow ipsPos_middle ipsButton ipsButton_link ipsButton_verySmall " data-role="followButton">
+		
+			<a href="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=notifications&amp;do=followers&amp;follow_app=cms&amp;follow_area=records15&amp;follow_id=1" title="See who follows this" class="ipsType_blendLinks ipsType_noUnderline" data-ipstooltip="" data-ipsdialog="" data-ipsdialog-size="narrow" data-ipsdialog-title="Who follows this">Followers</a>
+			<a class="ipsCommentCount" href="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=notifications&amp;do=followers&amp;follow_app=cms&amp;follow_area=records15&amp;follow_id=1" title="See who follows this" data-ipstooltip="" data-ipsdialog="" data-ipsdialog-size="narrow" data-ipsdialog-title="Who follows this">3</a>
+		
+	</div>
+
+</div>
+  </div>
+  <div class="ipsResponsive_showPhone ipsResponsive_block ipsSpacer_top">
+    
+
+
+
+  </div>
+
+  <div class="ipsGrid ipsGrid_collapsePhone ipsPager ipsClearfix ipsSpacer_top">
+    <div class="ipsGrid_span6 ipsType_left ipsPager_prev ipsPager_noDesc">
+      
+      <a href="https://greensock.com/products/" title="Go to Products" rel="up">
+        <span class="ipsPager_type">Go to products</span>
+      </a>
+      
+    </div>
+    
+  </div>
+
+  
+  <hr class="ipsHr">
+  
+
+	<ul class="ipsList_inline ipsList_noSpacing ipsClearfix" data-controller="core.front.core.sharelink">
+		
+			<li>
+<a href="http://twitter.com/share?text=Tween%3Cspan%3EMax%3C%2Fspan%3E&amp;url=https%3A%2F%2Fgreensock.com%2Ftweenmax%2F" class="cShareLink cShareLink_twitter" target="_blank" data-role="shareLink" title="Share on Twitter" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-twitter"></i>
+</a></li>
+		
+			<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgreensock.com%2Ftweenmax%2F" class="cShareLink cShareLink_facebook" target="_blank" data-role="shareLink" title="Share on Facebook" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-facebook"></i>
+</a></li>
+		
+			<li>
+<a href="http://digg.com/submit?url=https://greensock.com/tweenmax/" class="cShareLink cShareLink_digg" target="_blank" data-role="shareLink" title="Share on Digg" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-digg"></i>
+</a></li>
+		
+			<li>
+<a href="https://del.icio.us/save?jump=close&amp;noui=1&amp;v=5&amp;provider=GreenSock&amp;url=https://greensock.com/tweenmax/&amp;title=Tween%3Cspan%3EMax%3C/span%3E" class="cShareLink cShareLink_delicious" target="_blank" data-role="shareLink" title="Save to Delicious" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-delicious"></i>
+</a></li>
+		
+			<li>
+<a href="http://www.reddit.com/submit?url=https%3A%2F%2Fgreensock.com%2Ftweenmax%2F&amp;title=Tween%3Cspan%3EMax%3C%2Fspan%3E" class="cShareLink cShareLink_reddit" target="_blank" title="Share on Reddit" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-reddit"></i>
+</a></li>
+		
+			<li>
+<a href="https://greensock.com/tweenmax/?do=email" rel="nofollow" class="cShareLink cShareLink_email" data-ipsdialog="" data-ipsdialog-title="Email this page" data-ipsdialog-remotesubmit="" data-ipsdialog-flashmessage="The email has been sent" title="Share via email" data-ipstooltip="">
+	<i class="fa fa-envelope"></i>
+</a></li>
+		
+			<li>
+<a href="http://pinterest.com/pin/create/button/?url=https://greensock.com/tweenmax/&amp;media=https://greensock.com/uploads/monthly_2018_06/greensock-logo-300x300.gif.8023a3dcf1be729a9c88bdaa2f441a05.gif" class="cShareLink cShareLink_pinterest" target="_blank" data-role="shareLink" title="Share on Pinterest" data-ipstooltip="" rel="noopener">
+	<i class="fa fa-pinterest"></i>
+</a></li>
+		
+	</ul>
+
+  
+
+  <br>
+  
+  <a id="replies"></a>
+  <h2 class="ipsHide">User Feedback</h2>
+  
+<div data-controller="core.front.core.commentsWrapper" data-tabsid="22a42c2ff7323ce74643975e8e21ba8a">
+	
+<div class="ipsTabs ipsClearfix" id="elTabs_22a42c2ff7323ce74643975e8e21ba8a" data-ipstabbar="" data-ipstabbar-contentarea="#ipsTabs_content_22a42c2ff7323ce74643975e8e21ba8a">
+	<a href="https://greensock.com/tweenmax/#elTabs_22a42c2ff7323ce74643975e8e21ba8a"></a>
+	<ul role="tablist">
+		
+			<li>
+				<a href="https://greensock.com/tweenmax/?tab=comments" id="22a42c2ff7323ce74643975e8e21ba8a_tab_comments" class="ipsTabs_item ipsTabs_activeItem" title="0 Comments" role="tab" aria-selected="true">
+					0 Comments
+				</a>
+			</li>
+		
+	</ul>
+</div>
+<section id="ipsTabs_content_22a42c2ff7323ce74643975e8e21ba8a" class="ipsTabs_panels ipsTabs_contained">
+	
+		
+			<div id="ipsTabs_elTabs_22a42c2ff7323ce74643975e8e21ba8a_22a42c2ff7323ce74643975e8e21ba8a_tab_comments_panel" class="ipsTabs_panel" aria-labelledby="22a42c2ff7323ce74643975e8e21ba8a_tab_comments" aria-hidden="false" style="display: block;">
+				
+<div data-controller="core.front.core.commentFeed, core.front.core.ignoredComments" data-autopoll="" data-commentstype="comments" data-baseurl="https://greensock.com/tweenmax/" data-lastpage="" data-feedid="records15-1" id="comments">
+
+	
+
+<div data-controller="core.front.core.recommendedComments" data-url="https://greensock.com/tweenmax/?tab=comments&amp;recommended=comments" class="ipsAreaBackground ipsPad ipsBox ipsBox_transparent ipsSpacer_bottom ipsRecommendedComments ipsHide">
+	<div data-role="recommendedComments">
+		<h2 class="ipsType_sectionHead ipsType_large">Recommended Comments</h2>
+		
+	</div>
+</div>
+	
+
+
+
+
+
+	
+
+	<div data-role="commentFeed" data-controller="core.front.core.moderation">
+		
+			<p class="ipsType_normal ipsType_light ipsType_reset" data-role="noComments">There are no comments to display.</p>
+		
+	</div>
+	
+	
+		<br><br>
+		<div class="ipsAreaBackground ipsPad" data-role="replyArea">
+			
+				
+				
+
+	
+		<div class="ipsPad cGuestTeaser ipsSpacer_bottom">
+			<h2 class="ipsType_pageTitle">Join the conversation</h2>
+			<p class="ipsType_normal ipsType_reset ipsSpacer_top ipsSpacer_half">
+	
+				
+					You can post now and register later.
+				
+				If you have an account, <a href="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=login" data-ipsdialog="" data-ipsdialog-size="medium" data-ipsdialog-title="Sign In Now">sign in now</a> to post with your account.
+				
+			</p>
+	
+		</div>
+	
+
+
+<form accept-charset="utf-8" class="ipsForm ipsForm_vertical" action="https://greensock.com/tweenmax/" method="post" enctype="multipart/form-data">
+	<input type="hidden" name="commentform_1_submitted" value="1">
+	
+		<input type="hidden" name="csrfKey" value="20b755591f67c85dbcd0e8d04004e601">
+	
+		<input type="hidden" name="_contentReply" value="1">
+	
+		<input type="hidden" name="captcha_field" value="1">
+	
+	
+		<input type="hidden" name="MAX_FILE_SIZE" value="3145728">
+		<input type="hidden" name="plupload" value="a1d2b4a0dbf2f561144b66095fef2433">
+	
+	<div class="ipsComposeArea ipsComposeArea_withPhoto ipsClearfix ipsContained ipsComposeArea_minimized">
+		<div class="ipsPos_left ipsResponsive_hidePhone ipsResponsive_block">
+
+	<span class="ipsUserPhoto ipsUserPhoto_small ">
+		<img src="./TweenMax - Products - GreenSock_files/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" alt="Guest">
+	</span>
+</div>
+		<div class="ipsComposeArea_editor">
+			
+				
+					
+				
+					
+						<ul class="ipsForm ipsForm_horizontal" data-ipseditor-toollist="" style="display: none;">
+							<li class="ipsFieldRow ipsFieldRow_fullWidth">
+								
+
+
+
+	<input type="email" name="guest_email" value="" id="elInput_guest_email" aria-required="true" placeholder="Enter your email address (this is not shown to other users)" autocomplete="email">
+	
+	
+	
+
+								
+							</li>
+						</ul>
+					
+				
+					
+				
+			
+			
+				
+					
+						
+							
+						
+						
+<div class="ipsType_normal ipsType_richText ipsType_break" data-ipseditor="" data-ipseditor-controller="https://greensock.com/index.php?app=core&amp;module=system&amp;controller=editor" data-ipseditor-minimized="" data-ipseditor-toolbars="{&quot;desktop&quot;:[{&quot;name&quot;:&quot;row1&quot;,&quot;items&quot;:[&quot;Bold&quot;,&quot;Italic&quot;,&quot;Underline&quot;,&quot;Strike&quot;,&quot;-&quot;,&quot;ipsLink&quot;,&quot;Ipsquote&quot;,&quot;ipsCode&quot;,&quot;custom-9869ae13f0ed6928de53f8d6f3b89a04&quot;,&quot;ipsEmoticon&quot;,&quot;-&quot;,&quot;BulletedList&quot;,&quot;NumberedList&quot;,&quot;-&quot;,&quot;JustifyLeft&quot;,&quot;JustifyCenter&quot;,&quot;JustifyRight&quot;,&quot;-&quot;,&quot;TextColor&quot;,&quot;FontSize&quot;,&quot;-&quot;,&quot;ipsPreview&quot;]},&quot;\/&quot;],&quot;tablet&quot;:[{&quot;name&quot;:&quot;row1&quot;,&quot;items&quot;:[&quot;Bold&quot;,&quot;Italic&quot;,&quot;Underline&quot;,&quot;-&quot;,&quot;ipsLink&quot;,&quot;Ipsquote&quot;,&quot;ipsEmoticon&quot;,&quot;-&quot;,&quot;BulletedList&quot;,&quot;NumberedList&quot;,&quot;-&quot;,&quot;ipsPreview&quot;]},&quot;\/&quot;],&quot;phone&quot;:[{&quot;name&quot;:&quot;row1&quot;,&quot;items&quot;:[&quot;Bold&quot;,&quot;Italic&quot;,&quot;Underline&quot;,&quot;-&quot;,&quot;ipsEmoticon&quot;,&quot;-&quot;,&quot;ipsLink&quot;,&quot;-&quot;,&quot;ipsPreview&quot;]},&quot;\/&quot;]}" data-ipseditor-extraplugins="custom-9869ae13f0ed6928de53f8d6f3b89a04" data-ipseditor-postkey="934402f1bf825584a111aa90a8866b14" data-ipseditor-autosavekey="reply-cms/records15-1" data-ipseditor-skin="ips" data-ipseditor-name="content_record_form_comment_1" data-ipseditor-pastebehaviour="rich" data-ipseditor-ipsplugins="ipsautolink,ipsautosave,ipsctrlenter,ipscode,ipscontextmenu,ipsemoticon,ipsimage,ipslink,ipsmentions,ipspage,ipspaste,ipspreview,ipsquote,ipsspoiler,ipsautogrow,ipssource,removeformat">
+	<div data-role="editorComposer" class="ipsContained">
+		<noscript>
+			<textarea name="content_record_form_comment_1_noscript" rows="15"></textarea>
+		</noscript>
+		<div class="ipsHide norewrite" data-role="mainEditorArea" style="display: none;">
+			<textarea name="content_record_form_comment_1" data-role="contentEditor" class="ipsHide" tabindex="1"></textarea>
+		</div>
+		
+			<div class="ipsComposeArea_dummy ipsJS_show" tabindex="1"><i class="fa fa-comment-o"></i> Add a comment...</div>
+		
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="pasteMessage">
+			<p class="ipsType_reset ipsPad_half">
+				
+					<a class="ipsPos_right ipsType_normal ipsCursor_pointer ipsComposeArea_editorPasteSwitch" data-action="keepPasteFormatting" title="Keep formatting" data-ipstooltip="">×</a>
+					<i class="fa fa-info-circle"></i>&nbsp; Pasted as rich text. &nbsp;&nbsp;<a class="ipsCursor_pointer" data-action="removePasteFormatting">Paste as plain text instead</a>
+				
+			</p>
+		</div>
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="emoticonMessage">
+			<p class="ipsType_reset ipsPad_half">
+				<i class="fa fa-info-circle"></i>&nbsp; Only 75 emoji are allowed.
+			</p>
+		</div>
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="embedMessage">
+			<p class="ipsType_reset ipsPad_half">
+				<a class="ipsPos_right ipsType_normal ipsCursor_pointer ipsComposeArea_editorPasteSwitch" data-action="keepEmbeddedMedia" title="Keep embedded content" data-ipstooltip="">×</a>
+				<i class="fa fa-info-circle"></i>&nbsp; Your link has been automatically embedded. &nbsp;&nbsp;<a class="ipsCursor_pointer" data-action="removeEmbeddedMedia">Display as a link instead</a>
+			</p>
+		</div>
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="embedFailMessage">
+			<p class="ipsType_reset ipsPad_half">
+			</p>
+		</div>
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="autoSaveRestoreMessage">
+			<p class="ipsType_reset ipsPad_half">
+				<a class="ipsPos_right ipsType_normal ipsCursor_pointer ipsComposeArea_editorPasteSwitch" data-action="keepRestoredContents" title="Keep restored contents" data-ipstooltip="">×</a>
+				<i class="fa fa-info-circle"></i>&nbsp; Your previous content has been restored. &nbsp;&nbsp;<a class="ipsCursor_pointer" data-action="clearEditorContents">Clear editor</a>
+			</p>
+		</div>
+		<div class="ipsHide ipsComposeArea_editorPaste" data-role="imageMessage">
+			<p class="ipsType_reset ipsPad_half">
+				<a class="ipsPos_right ipsType_normal ipsCursor_pointer ipsComposeArea_editorPasteSwitch" data-action="removeImageMessage">×</a>
+				<i class="fa fa-info-circle"></i>&nbsp; You cannot paste images directly. Upload or insert images from URL.
+			</p>
+		</div>
+		
+<div data-ipseditor-toollist="" data-ipseditor-toollistminimized="" data-name="content_record_form_comment_1" class="ipsAreaBackground_light ipsClearfix ipsHide" style="display: none;">
+	<div data-role="attachmentArea">
+		<div class="ipsComposeArea_dropZone ipsComposeArea_dropZoneSmall ipsClearfix">
+			<i class="fa fa-paperclip"></i>
+			<div class="ipsType_light ipsType_normal">
+				Loading...
+			</div>
+		</div>		
+	</div>
+</div>
+	</div>
+	<div data-role="editorPreview" class="ipsHide">
+		<div class="ipsAreaBackground_light ipsPad_half" data-role="previewToolbar">
+			<a href="https://greensock.com/tweenmax/#" class="ipsPos_right" data-action="closePreview" title="Return to editing mode" data-ipstooltip="">×</a>
+			<ul class="ipsButton_split">
+				<li data-action="resizePreview" data-size="desktop"><a href="https://greensock.com/tweenmax/#" title="View at approximate desktop size" data-ipstooltip="" class="ipsButton ipsButton_verySmall ipsButton_primary">Desktop</a></li>
+				<li data-action="resizePreview" data-size="tablet"><a href="https://greensock.com/tweenmax/#" title="View at approximate tablet size" data-ipstooltip="" class="ipsButton ipsButton_verySmall ipsButton_light">Tablet</a></li>
+				<li data-action="resizePreview" data-size="phone"><a href="https://greensock.com/tweenmax/#" title="View at approximate phone size" data-ipstooltip="" class="ipsButton ipsButton_verySmall ipsButton_light">Phone</a></li>
+			</ul>
+		</div>
+		<div data-role="previewContainer" class="ipsAreaBackground ipsType_center"></div>
+	</div>
+</div>
+						
+					
+				
+					
+				
+					
+				
+			
+			<ul class="ipsToolList ipsToolList_horizontal ipsClear ipsClearfix ipsJS_hide" data-ipseditor-toollist="" style="display: none;">
+				
+					
+						
+					
+						
+					
+						
+							<li class="ipsPos_left ipsResponsive_noFloat  ipsType_small">
+								
+<div data-ipscaptcha="" data-ipscaptcha-service="recaptcha2" data-ipscaptcha-key="6LdMihATAAAAANQJhO8XBLlpHPsSGKcMnk9bPt_C" data-ipscaptcha-lang="en_US" data-ipscaptcha-theme="light">
+	<noscript>
+	  <div style="width: 302px; height: 352px;">
+	    <div style="width: 302px; height: 352px; position: relative;">
+	      <div style="width: 302px; height: 352px; position: absolute;">
+	        <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdMihATAAAAANQJhO8XBLlpHPsSGKcMnk9bPt_C" style="width: 302px; height:352px; border-style: none;">
+	        </iframe>
+	      </div>
+	      <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+	        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"></textarea>
+	      </div>
+	    </div>
+	  </div>
+	</noscript>
+<div data-captchacontainer="" id="ips_uid_866_4"><div style="width: 304px; height: 78px;"><div><iframe src="./TweenMax - Products - GreenSock_files/anchor.html" width="304" height="78" role="presentation" name="a-sjzmyqgvlkov" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div></div>
+								
+							</li>
+						
+					
+				
+				
+					<li>
+
+	<button type="submit" class="ipsButton ipsButton_primary" tabindex="2" accesskey="s" role="button">Submit Comment</button>
+</li>
+				
+			</ul>
+		</div>
+	</div>
+</form>
+			
+		</div>
+	
+</div>
+			</div>
+		
+	
+</section>
+
+</div>
+  
+
+  <br>
+  
+  
+  
+</div>
+</div>
+						
+
+
+					
+
+<div class="cjmg_container cjmg_container_bodyBottom">
+    
+    
+    
+</div>
+</div>
+					
+
+
+                  </div>
+			      
+<nav class="ipsBreadcrumb ipsBreadcrumb_bottom ipsFaded_withHover">
+	
+		
+
+
+	
+  
+	<!--ul class='ipsList_inline ipsPos_right'>
+		
+		<li >
+			<a data-action="defaultStream" class='ipsType_light '  href='https://greensock.com/discover/'><i class='icon-newspaper'></i> <span>All Activity</span></a>
+		</li>
+		
+	</ul-->
+
+	<ul data-role="breadcrumbList">
+		<li>
+			<a title="Home" href="https://greensock.com/">
+				<span><i class="fa fa-home"></i> Home <i class="fa fa-angle-right"></i></span>
+			</a>
+		</li>
+		
+		
+			<li>
+				
+					<a href="https://greensock.com/products/">
+						<span>Products <i class="fa fa-angle-right"></i></span>
+					</a>
+				
+			</li>
+		
+			<li>
+				
+					TweenMax
+				
+			</li>
+		
+	</ul>
+</nav>
+				</div>
+			</div>
+			
+		</main>
+		<footer id="ipsLayout_footer" class="ipsClearfix">
+			<div class="ipsLayout_container">
+				
+				
+
+
+
+
+<div class="gsCarousel cTestimonialBlock ipsClearfix">
+  <div class="gsCarousel_inner">
+    <ul class="gsCarouselList ipsClearfix">
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: inherit; opacity: 1; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“I am more and more amazed every day, and very glad that I decided to get a business license.”</h1>
+        <p class="ipsType_large cTestimonial_person">LilaQ</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“Performance has been of paramount importance for GreenSock, so there is always peace of mind for us, developers.”</h1>
+        <p class="ipsType_large cTestimonial_person">Tahir Ahmed</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“The GreenSock animation platform is one of the most useful sets of tools in existence when it comes to web animation.”</h1>
+        <p class="ipsType_large cTestimonial_person">Ben Rugg</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 113px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“I think I love GreenSock as much as bacon.”</h1>
+        <p class="ipsType_large cTestimonial_person">Nick Zwinggi</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“Spent today converting an animation to pure CSS, and then into GSAP. GreenSock was an order of magnitude easier. Love it.”</h1>
+        <p class="ipsType_large cTestimonial_person">Tristan Mugford, @tmugford</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“GSAP and CSS Transitions: I've done both, and its like comparing an F16 to a horse. Take like 10 minutes to try.”</h1>
+        <p class="ipsType_large cTestimonial_person">Vic C., @puppetMaster3</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“GSAP is just miles and miles ahead of any animation library out there. Great work!”</h1>
+        <p class="ipsType_large cTestimonial_person">Adam Alicki</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 98px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“Honestly think without TweenMax, I'd of changed careers by now; it's that good.”</h1>
+        <p class="ipsType_large cTestimonial_person">James Stone, @mimeartist</p>
+        
+      </li>
+      
+      <li class="gsCarousel_item cTestimonial ipsType_center" style="visibility: hidden; opacity: 0; padding-top: 83px;">
+        <h1 class="ipsType_pageTitle cTestimonial_content">“Aside from GreenSock’s laser-focused attention to detail, GSAP is fast, reliable, flexible, exceptional value (read: free in most cases) and, very importantly, supported.”</h1>
+        <p class="ipsType_large cTestimonial_person">Chris Gannon</p>
+        
+      </li>
+      
+    </ul>
+    
+    <a href="https://greensock.com/tweenmax/#" class="gsCarousel_nav">
+      <img class="left-arrow arrow" width="42" height="81" src="./TweenMax - Products - GreenSock_files/testimonial-arrow-left.png">
+    </a>
+    <a href="https://greensock.com/tweenmax/#" class="gsCarousel_nav right-arrow">
+      <img class="arrow" width="42" height="81" src="./TweenMax - Products - GreenSock_files/testimonial-arrow-right.png" style="visibility: inherit; opacity: 0.75;">
+    </a>
+  </div>
+  
+  <div class="testimonials-block-bot block-container">
+    <div class="buttons ipsClearfix">
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: inherit; opacity: 1;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+      <div class="t-button button ipsPos_left">
+        <img class="buttonRest" width="29" height="29" src="./TweenMax - Products - GreenSock_files/testimonial-bullet.png">
+        <img class="buttonHover" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+        <img class="buttonActive" width="29" height="29" style="visibility: hidden; opacity: 0;" src="./TweenMax - Products - GreenSock_files/testimonial-bullet-hover.png">
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+var currentTestimonial = 1;
+var totalTestimonials = 0;
+
+document.addEventListener("DOMContentLoaded", function() {
+
+	totalTestimonials = document.querySelectorAll('.cTestimonial').length;
+
+	document.querySelectorAll('.t-button').forEach(function(dot, i) {
+		dot.addEventListener("mouseenter", function() {
+			TweenMax.to(dot.querySelector('.buttonHover'), 0.25, {autoAlpha:1 });
+		});
+		dot.addEventListener("mouseleave", function() {
+			TweenMax.to(dot.querySelector('.buttonHover'), 0.5, {autoAlpha:0 });
+		});
+
+		dot.addEventListener("click", function() {
+			updateTestimonial(i + 1, 1);
+		});
+	});
+
+	document.querySelectorAll('.arrow').forEach(function(arrow) {
+		arrow.addEventListener("mouseenter", function() {
+			TweenMax.to(arrow, 0.25, {autoAlpha:1, overwrite:1 });
+		});
+		arrow.addEventListener("mouseleave", function() {
+			TweenMax.to(arrow, 0.5, {autoAlpha:.75 });
+		});
+	});
+
+	document.querySelector(".left-arrow").addEventListener("click", function(e) {
+		e.preventDefault();
+
+		currentTestimonial--;
+		if (currentTestimonial == 0) {
+			currentTestimonial = totalTestimonials;
+		}
+		updateTestimonial(currentTestimonial, 1);
+	});
+
+	document.querySelector(".right-arrow").addEventListener("click", function(e) {
+		e.preventDefault();
+
+		currentTestimonial++;
+		if (currentTestimonial > totalTestimonials) {
+			currentTestimonial = 1;
+		}
+		updateTestimonial(currentTestimonial, 1);
+	});
+
+	updateTestimonial(1, 0);
+
+	// Vertically Align all testimonials
+	for (var i = 0; i < totalTestimonials; i++) {
+		var testi = document.querySelectorAll('.cTestimonial')[i];
+		TweenMax.to(testi, 0, {paddingTop:(345-testi.clientHeight)/2});
+	}
+
+});
+
+function updateTestimonial(index, speed) {
+	currentTestimonial = index;
+	TweenMax.to('.cTestimonial', .25*speed, {autoAlpha:0});
+	TweenMax.to('.cTestimonial:nth-child('+index+')', .5*speed, {autoAlpha:1});
+	TweenMax.to('.buttonActive', 0.25*speed, {autoAlpha:0});
+	TweenMax.to('.t-button:nth-child('+index+') .buttonActive', 0.5*speed, {autoAlpha:1});
+}
+
+</script>
+
+
+
+<div class="cInnerContent card ipsSpacer_both_double ipsPad_double" id="elNewsletterSignupBlock" data-controller="drip.front.global.signup">
+  <div class="ipsGrid ipsGrid_collapsePhone">
+    
+    <div class="signUpTextSection ipsGrid_span6">
+        <h2>Sign Up For Our Newsletter</h2>
+        <div class="ipsType_normal ipsType_light">Get the latest updates on GreenSock products, exclusive offers, and more right in your inbox.</div>
+    </div>
+    
+    <div class="ipsGrid_span6">
+        <div class="signUpBox ipsPad">
+            <input type="email" name="signup_email" id="signup_email" placeholder="Your Email Address">
+            <a href="https://greensock.com/tweenmax/#" data-action="newsletterSignup" class="ipsButton ipsButton_small">Sign Up</a>
+        </div>
+        <div class="ipsType_light ipsType_small">Your information will always be kept confidential.</div>
+    </div>
+  </div>
+</div>
+
+<div id="overlay-dimmer" style="transform: translate3d(0px, 0px, 0px);"></div>
+
+<div id="newsletter_signup_thanks" class="popup-overlay ipsHide ipsPad">
+  <div class="thank-you ipsGrid ipsGrid_collapsePhone">
+    
+    <div class="ipsGrid_span6 ipsClearfix">
+      <div class="ipsSpacer_bottom">
+        <h2 class="sectionTitle">Thanks for signing up!</h2>
+        <p>Now you'll begin receiving the latest GreenSock updates, exclusive offers, and more right in your inbox. Welcome aboard.</p>
+      </div>
+        
+      <div class="ipsSpacer_bottom">
+        <h2>Other ways to stay in touch:</h2>
+
+        <div class="social-links ipsPos_left">
+          <a class="social" href="http://www.codepen.io/GreenSock/" target="_blank">
+            <img class="idle" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-codepen.png">
+            <img class="hover" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-codepen-hover.png">
+            <p>CodePen</p>
+          </a>
+          <a class="social" href="https://github.com/greensock/GreenSock-JS/" target="_blank">
+            <img class="idle" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-github.png">
+            <img class="hover" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-github-hover.png">
+            <p>GitHub</p>
+          </a>
+          <a class="social" href="http://www.facebook.com/greensock/" target="_blank">
+            <img class="idle" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-facebook.png">
+            <img class="hover" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-facebook-hover.png">
+            <p>Facebook</p>
+          </a>
+        </div>
+
+        <div class="social-links ipsPos_left">
+          <a class="social" href="https://www.linkedin.com/company/greensock" target="_blank">
+            <img class="idle" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-linkedin.png">
+            <img class="hover" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-linkedin-hover.png">
+            <p>LinkedIn</p>
+          </a>
+          <a class="social" href="http://www.twitter.com/greensock/" target="_blank">
+            <img class="idle" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-twitter.png">
+            <img class="hover" height="24" width="24" src="./TweenMax - Products - GreenSock_files/social-twitter-hover.png">
+            <p>Twitter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="club ipsGrid_span6">
+      
+<div class="cBlackContent ipsType_center card ipsPad">
+  <img src="./TweenMax - Products - GreenSock_files/join-club.png">
+  <p>Get an all-access pass to premium plugins, offers, and more!</p>
+  <a class="blackBtn ipsButton" href="https://greensock.com/club/">Join the Club</a>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="cCompanyLogosBlock cInnerContent ipsSpacer_top ipsType_center">
+    <div class="ipsType_large ipsType_uppercase ipsSpacer_top">Just a few of the companies that rely on GreenSock products every day.</div>
+    <hr class="ipsHr">
+    
+    <div class="cCompanyLogosContainer">
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-intel.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: inherit; opacity: 1;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-microsoft.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-cocacola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-adobe.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-fox.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-mcdonalds.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ea.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-google-new-light.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-nike.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-youtube.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-motorola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-amazon.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ford.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-samsung.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-aol.png"></div>
+        
+    </div>
+    
+    <div class="cCompanyLogosContainer">
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-intel.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-microsoft.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: inherit; opacity: 1;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-cocacola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-adobe.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-fox.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-mcdonalds.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ea.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-google-new-light.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-nike.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-youtube.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-motorola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-amazon.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ford.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-samsung.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-aol.png"></div>
+        
+    </div>
+    
+    <div class="cCompanyLogosContainer">
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-intel.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-microsoft.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-cocacola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-adobe.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-fox.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-mcdonalds.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ea.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-google-new-light.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-nike.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-youtube.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-motorola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-amazon.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ford.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: inherit; opacity: 1;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-samsung.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-aol.png"></div>
+        
+    </div>
+    
+    <div class="cCompanyLogosContainer">
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-intel.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-microsoft.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-cocacola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-adobe.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-fox.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-mcdonalds.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ea.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-google-new-light.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-nike.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-youtube.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-motorola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-amazon.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ford.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-samsung.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: inherit; opacity: 1;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-aol.png"></div>
+        
+    </div>
+    
+    <div class="cCompanyLogosContainer">
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-intel.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-microsoft.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-cocacola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-adobe.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: inherit; opacity: 1;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-fox.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-mcdonalds.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ea.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-google-new-light.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-nike.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-youtube.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-motorola.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-amazon.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-ford.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-samsung.png"></div>
+        
+        <div class="cCompanyLogo" style="visibility: hidden; opacity: 0;"><img class="light" width="200" height="100" src="./TweenMax - Products - GreenSock_files/logo-aol.png"></div>
+        
+    </div>
+    
+</div>
+<script>
+    var totalLogos;
+    var current = [0, 1, 2, 3, 4];
+    var lastframe = -1;
+
+    function updateLogos() {
+        var randLogo = Math.floor(Math.random() * 5);
+        if (randLogo == lastframe) {
+            updateLogos();
+            return
+        }
+        updateLogo(randLogo);
+        lastframe = randLogo;
+        TweenMax.delayedCall(2, updateLogos);
+    }
+
+    function updateLogo(num) {
+        var nextImage = Math.floor(Math.random() * totalLogos);
+
+        for (var i = 0; i < 5; i++) {
+            if (nextImage == current[i]) {
+                updateLogo(num);
+                return
+            }
+        }
+
+        for (var i = 0; i < totalLogos; i++) {
+            var logo = document.querySelectorAll('.cCompanyLogosContainer')[num].querySelectorAll('.cCompanyLogo')[i];
+
+            if (logo.style.opacity > .5) {
+                if (nextImage == i) {
+                    updateLogo(num);
+                    return
+                }
+                TweenMax.to(logo, .75, {
+                    autoAlpha: 0
+                });
+            } else {
+                if (nextImage == i) {
+                    TweenMax.to(logo, .75, {
+                        autoAlpha: 1,
+                        delay: .25
+                    });
+                    current[num] = i;
+                }
+            }
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        totalLogos = document.querySelector('.cCompanyLogosContainer').querySelectorAll(".cCompanyLogo").length;
+        TweenMax.set('.cCompanyLogo', {
+            autoAlpha: 0
+        });
+        for (var j = 0; j < 5; j++) {
+            for (var i = 0; i < totalLogos; i++) {
+                if (j == i && i < 5) {
+                    TweenMax.set(document.querySelectorAll('.cCompanyLogosContainer')[j].querySelectorAll('.cCompanyLogo')[i], {
+                        autoAlpha: 1
+                    });
+                }
+            }
+        }
+        TweenMax.delayedCall(1, updateLogos);
+    });
+</script>
+
+<div class="cFooterLinksBlock">
+  <div class="cFooterLinksBlock_inner">
+    <div class="gsColumns gsColumnsDesktop">
+      <div class="gsColumns gsThreeColumns">
+        
+        <div class="gsColumn">
+          <h3 class="ipsType_uppercase">HTML5 / JS</h3>
+          <div>
+            <a href="https://greensock.com/gsap/">GSAP</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/draggable/">Draggable</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/SplitText/">SplitText</a>
+          </div>
+        </div>
+        
+        <div class="gsColumn">
+          <h3 class="ipsType_uppercase">Learning</h3>
+          <div>
+            <a href="https://greensock.com/learning/">Learning Center</a>
+          </div>
+          
+          <h3 class="ipsType_uppercase ipsSpacer_top">Support</h3>
+          <div>
+            <a href="https://greensock.com/help/">Support Home</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/docs/">Documentation</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/forums/">Forums</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/faqs/">FAQs</a>
+          </div>
+        </div>
+        
+        <div class="gsColumn">
+          <h3 class="ipsType_uppercase">Our Company</h3>
+          <div>
+            <a href="https://greensock.com/about/">About</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/blog/">Blog</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/club/">Club GreenSock</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/licensing/">Licensing</a>
+          </div>
+          <div>
+            <a href="https://greensock.com/contact/" data-ipsdialog="" data-ipsdialog-title="Contact Us">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="gsColumn center-on-tablet">
+        <h3 class="ipsType_uppercase hidden-on-large">Socials</h3>
+        <div class="cFooterSocial">
+          <div class="social">
+            <a href="https://www.codepen.io/GreenSock/" target="_blank"><i class="fa fa-codepen"></i> CodePen</a>
+          </div>
+          <div class="social">
+            <a href="https://github.com/greensock/GreenSock-JS/" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/greensock/" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/company/greensock" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          </div>
+          <div class="social">
+            <a href="https://www.twitter.com/greensock/" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="gsColumn center-on-tablet">
+        <h3 class="ipsType_uppercase">Looking for something?</h3>
+        
+        <div class="searchWrapper cSearchExpanded">
+          <div class="innerSearchWrapper">
+            <form method="post" action="https://greensock.com/search/?do=quickSearch">
+              <input class="searchInput" type="search" placeholder="Search..." name="q" autocomplete="off">
+              <button class="cSearchSubmit open" type="submit">
+                <img src="./TweenMax - Products - GreenSock_files/glass.png" alt="search" width="42" height="42">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer-bot ipsClearfix">
+  <div class="cInnerContent">
+    <div class="ipsPos_left">
+      © 2019, GreenSock, Inc. <span>|</span> <a href="https://greensock.com/standard-license/">Terms of Use</a> <span>|</span> <a href="https://greensock.com/privacy/">Privacy Policy</a>
+    </div>
+
+    <div class="ipsPos_right">
+      <a href="https://greensock.com/credits/">Site Credits</a>
+    </div>
+  </div>
+</div>
+
+
+<!--ul class='ipsList_inline ipsType_center ipsSpacer_top' id="elFooterLinks">
+	
+	
+	
+	
+		<li>
+			<a href='#elNavTheme_menu' id='elNavTheme' data-ipsMenu data-ipsMenu-above>Theme <i class='fa fa-caret-down'></i></a>
+			<ul id='elNavTheme_menu' class='ipsMenu ipsMenu_selectable ipsHide'>
+			
+				<li class='ipsMenu_item'>
+					<form action="//greensock.com/theme/?csrfKey=20b755591f67c85dbcd0e8d04004e601" method="post">
+					<input type="hidden" name="ref" value="aHR0cHM6Ly9ncmVlbnNvY2suY29tL3R3ZWVubWF4Lw==">
+					<button type='submit' name='id' value='1' class='ipsButton ipsButton_link ipsButton_link_secondary'>Default </button>
+					</form>
+				</li>
+			
+				<li class='ipsMenu_item ipsMenu_itemChecked'>
+					<form action="//greensock.com/theme/?csrfKey=20b755591f67c85dbcd0e8d04004e601" method="post">
+					<input type="hidden" name="ref" value="aHR0cHM6Ly9ncmVlbnNvY2suY29tL3R3ZWVubWF4Lw==">
+					<button type='submit' name='id' value='4' class='ipsButton ipsButton_link ipsButton_link_secondary'>GreenSock (Default)</button>
+					</form>
+				</li>
+			
+			</ul>
+		</li>
+	
+	
+		<li><a href='https://greensock.com/privacy/'>Privacy Policy</a></li>
+	
+	
+		<li><a rel="nofollow" href='https://greensock.com/contact/' data-ipsdialog data-ipsDialog-remoteSubmit data-ipsDialog-flashMessage='Thanks, your message has been sent to the administrators.' data-ipsdialog-title="Contact Us">Contact Us</a></li>
+	
+</ul-->	
+
+
+
+<script>
+document.querySelectorAll('[data-action="scrollTo"]').forEach(function(link) {
+	link.addEventListener("click", function(e) {
+		e.preventDefault();
+		TweenMax.to(window, 0.3, {scrollTo:{y: link.hash, offsetY:50, ease: Power2.easeIn}});
+	});
+});
+</script>
+<p id="elCopyright">
+	<span id="elCopyright_userLine"></span>
+	<a rel="nofollow" title="Invision Community" href="https://www.invisioncommunity.com/">Powered by Invision Community</a>
+</p>
+			</div>
+		</footer>
+
+    <div class="cjmg_spacer_footer"></div>
+
+<div class="cjmg_container cjmg_container_footer">
+    
+    
+    
+</div>
+
+		
+<script>
+  function openMobileMenu() {
+    TweenMax.staggerFrom('#elMobileDrawer li', .4, {autoAlpha:0, xPercent:100}, .05);
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("#elMobileNav").addEventListener("click", openMobileMenu);
+    
+    var closeButton = document.querySelector(".ipsDrawer_close");
+    window.addEventListener("resize", function() {
+      if(closeButton.style.display === "block"
+         && innerWidth > 979) {
+        closeButton.style.display = "none";
+        closeButton.click();
+      }
+    });
+  });
+</script>
+
+<div id="elMobileDrawer" class="ipsDrawer ipsHide">
+	<a href="https://greensock.com/tweenmax/#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+	<div class="ipsDrawer_menu">
+		<div class="ipsDrawer_content">
+<ul id="elUserNav_mobile" class="ipsList_inline signed_in ipsClearfix">
+	
+
+
+</ul>
+
+          
+          <div class="searchContainer ipsClearfix">
+            <div class="searchWrapper cSearchExpanded">
+              <div class="innerSearchWrapper">
+                <form method="post" action="https://greensock.com/search/?do=quickSearch">
+                  <input class="searchInput" type="search" placeholder="Search..." name="q" autocomplete="off">
+                  <button class="cSearchSubmit open" type="submit">
+                    <img src="./TweenMax - Products - GreenSock_files/glass.png" alt="search" width="42" height="42">
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          <div class="cInnerContent">
+            
+            
+            <div class="ipsType_center">
+              <a class="ipsButton blackBtn ipsSpacer_bottom" href="https://greensock.com/login/">Login</a>
+              <a class="ipsButton blackBtn ipsSpacer_bottom" href="https://greensock.com/register/">Create Account</a>
+            </div>
+            
+
+            <ul class="primaryMobileList ipsDrawer_list">
+              <li><a href="https://greensock.com/products/">Products</a></li>
+              <li><a href="https://greensock.com/examples-showcases/">Examples</a></li>
+              <li><a href="https://greensock.com/docs/">Docs</a></li>
+              <li><a href="https://greensock.com/forums/">Forums</a></li>
+              <li><a href="https://greensock.com/club/">Club GreenSock</a></li>
+            </ul>
+
+            <ul class="secondaryMobileList ipsDrawer_list">
+              <li><a href="https://greensock.com/learning/">
+                <svg viewBox="0 0 16 14"><path d="M2 9.99C1.45 9.99 1 9.55 1 8.99C1 8.3 1 2.7 1 2C1 1.45 1.45 1 2 1C3.2 1 12.8 1 14 1C14.55 1 15 1.45 15 2C15 2.7 15 8.3 15 8.99C15 9.55 14.55 9.99 14 9.99C11.6 9.99 3.2 9.99 2 9.99Z" stroke="#88ce02" stroke-width="2" stroke-opacity="1" fill="none"></path><path d="M10 12.99L6 12.99" stroke="#88ce02" stroke-width="2" stroke-opacity="1" fill="none"></path></svg>
+                Learning
+              </a></li>
+              <li><a href="https://greensock.com/blog/">
+                <svg viewBox="0 0 16 18"><path d="M4.5 12L8 12" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path><path d="M2.17 16.52C1.52 16.52 1 16.03 1 15.42C1 14.42 1 6.44 1 5.44C1 4.83 1.52 4.33 2.17 4.33C2.98 4.33 9.52 4.33 10.33 4.33C10.98 4.33 11.5 4.83 11.5 5.44C11.5 6.44 11.5 14.42 11.5 15.42C11.5 16.03 10.98 16.52 10.33 16.52C8.7 16.52 2.98 16.52 2.17 16.52Z" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path><path d="M4.5 8L8 8" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path><path d="M4.5 1C10.1 1 13.21 1 13.83 1C14.48 1 15 1.5 15 2.11C15 2.85 15 6.54 15 13.2" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path></svg>
+                Blog
+              </a></li>
+              <li><a href="https://greensock.com/about/">
+                <svg viewBox="0 0 16 16"><path d="M2 14.99C1.45 14.99 1 14.54 1 13.99C1 12.79 1 3.2 1 2C1 1.45 1.45 1 2 1C3.2 1 12.8 1 14 1C14.55 1 15 1.45 15 2C15 3.2 15 12.79 15 13.99C15 14.54 14.55 14.99 14 14.99C11.6 14.99 3.2 14.99 2 14.99Z" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path><path d="M8 8L8 10.99" fill-opacity="0" stroke="#88ce02" stroke-width="2"></path><path d="M9 5C9 5.55 8.55 6 8 6C7.45 6 7 5.55 7 5C7 4.44 7.45 4 8 4C8.55 4 9 4.44 9 5" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></path></svg>
+                About
+              </a></li>
+            </ul>
+            
+          </div>
+          
+          	<!--
+			
+			
+			
+          	
+          	<div class='ipsSpacer_bottom ipsPad'>
+				<ul class='ipsToolList ipsToolList_vertical'>
+						
+						<li>
+							<a href='//greensock.com/login/' class='ipsButton ipsButton_light ipsButton_small ipsButton_fullWidth'>Existing user? Sign In</a>
+						</li>
+						
+							<li>
+								<a href='//greensock.com/register/' id='elRegisterButton_mobile' class='ipsButton ipsButton_small ipsButton_fullWidth ipsButton_important'>Sign Up</a>
+							</li>
+						
+				</ul>
+			</div>
+          	
+
+			<ul class='ipsDrawer_list'>
+				
+
+				
+				
+				
+				
+					
+						
+						
+							<li><a href='https://greensock.com/leaderboard/' >Leaderboard
+						
+					
+				
+					
+				
+					
+				
+			--&gt;
+		</div>
+	</div>
+</div>
+		
+		
+		
+		
+		<!--ipsQueryLog-->
+		<!--ipsCachingLog-->
+		
+		
+	
+
+</div></div></div><span style="visibility: hidden; position: absolute; top: -300px; width: 1px; height: 1px; overflow: hidden; left: -300px;"><span class="ipsLoading ipsLoading_noAnim" style="display: block;"></span></span>  <div id="ipsTooltip" class="ipsTooltip ipsType_noBreak" role="tooltip" animating="false" style="display: none;"></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge" src="./TweenMax - Products - GreenSock_files/bframe.html" name="c-sjzmyqgvlkov" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div><div class="drip-lightbox-wrapper">
+  <div id="drip-108047" class="drip-lightbox drip-hidden no-image">
+    <div id="drip-content-108047" class="drip-content" style="height: auto;">
+      <a id="drip-close-108047" class="drip-close">
+        <svg width="12px" height="12px" viewBox="630 19 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <polygon id="x" stroke="none" fill="#A8ACB9" fill-rule="evenodd" points="641.376687 30.1740899 636.49366 24.436669 641.095466 19 639.510399 19 635.701126 23.6038176 631.866288 19 630.281221 19 634.883028 24.436669 630 30.1740899 631.585067 30.1740899 635.701126 25.2463857 639.791621 30.1740899"></polygon>
+        </svg>
+      </a>
+
+      <div id="drip-form-panel-108047" class="drip-panel" style="display: block;">
+        
+
+        <div class="drip-form-main">
+          <h3 id="drip-content-header-108047">Newsletter Subscription</h3>
+          
+            <div id="drip-scroll-108047" class="drip-scroll powered-by">
+          
+            <div class="drip-description"></div>
+
+            <form id="drip-form-108047">
+              <dl class="no-labels">
+                
+                  
+                    
+                      <dt>Email Address</dt>
+                    
+                    <dd>
+                      
+                        <input type="email" name="fields[email]" value="" placeholder="Email Address" class="drip-text-field">
+                        <div id="drip-errors-for-email-108047" class="drip-errors"></div>
+                      
+                    </dd>
+                  
+                
+                
+                <div style="display: none;" aria-hidden="true">
+                  <dt for="website">Website</dt>
+                  <dd>
+                    <input type="text" id="website" name="website" placeholder="Website" class="drip-text-field" tabindex="-1" autocomplete="false" value="">
+                  </dd>
+                </div>
+              </dl>
+              <div class="form-controls">
+                <input type="submit" name="submit" value="Sign Up" id="drip-submit-108047" class="drip-submit-button">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="drip-success-panel-108047" class="drip-success drip-panel" style="display: none">
+        <h3>Thank you for signing up!</h3>
+        <p class="drip-description drip-post-submission">Please be sure to whitelist emails from info@greensock.com to ensure that they don't get lost in your spam folder.</p>
+      </div>
+
+      
+        <div id="drip-powered-by" class="drip-powered-by">
+          Powered By <a href="https://www.drip.com/" target="_blank"><svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path fill="#F224F2" d="M15.4256545,13.125 C15.4287406,13.2024 15.4305922,13.2792 15.4305922,13.356 C15.4305922,17.9418 11.572975,21 7.71535784,21 C3.85774064,21 0.00012344375,17.9418 0.00012344375,13.356 C0.00012344375,13.2792 0.00135788125,13.2024 0.00444397501,13.125 L2.31469376,13.125 L2.31469376,13.356 C2.31469376,16.6872 5.11810133,18.75 7.71535784,18.75 C10.3119971,18.75 13.1160219,16.6872 13.1160219,13.356 L13.1160219,13.125 L15.4256545,13.125 Z M9.25828128,9.6375 C9.25828128,10.4661 8.56761349,11.1375 7.7152344,11.1375 C6.8628553,11.1375 6.17218752,10.4661 6.17218752,9.6375 C6.17218752,8.8089 6.8628553,8.1375 7.7152344,8.1375 C8.56761349,8.1375 9.25828128,8.8089 9.25828128,9.6375 Z M13.8874219,9.6375 C13.8874219,10.4661 13.1967541,11.1375 12.344375,11.1375 C11.4919959,11.1375 10.8013282,10.4661 10.8013282,9.6375 C10.8013282,8.8089 11.4919959,8.1375 12.344375,8.1375 C13.1967541,8.1375 13.8874219,8.8089 13.8874219,9.6375 Z M4.62914064,9.6375 C4.62914064,10.4661 3.93847286,11.1375 3.08609376,11.1375 C2.23371466,11.1375 1.54304688,10.4661 1.54304688,9.6375 C1.54304688,8.8089 2.23371466,8.1375 3.08609376,8.1375 C3.93847286,8.1375 4.62914064,8.8089 4.62914064,9.6375 Z M7.7152344,2.85762 L6.06170536,5.02482 L3.14472954,5.02482 C5.2796892,2.17182 7.7152344,-0.00018 7.7152344,-0.00018 C7.7152344,-0.00018 10.1507796,2.17182 12.2857393,5.02482 L9.36876343,5.02482 L7.7152344,2.85762 Z"></path>
+          </svg></a>
+        </div>
+      
+    </div>
+  </div>
+  <div id="drip-backdrop-108047" class="drip-backdrop drip-fade drip-hidden"></div>
+</div></body><div style="border-radius: 10px; background-color: rgb(255, 255, 255); min-width: 250px; max-width: 40%; text-align: left; border: 1px solid rgb(187, 187, 187); box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 16px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: &quot;Signika Negative&quot;, Arial, sans-serif; font-weight: 300; font-size: 18px; line-height: 24px; color: rgb(68, 68, 68); visibility: hidden; z-index: 4000;"><div style="padding: 30px;"></div><div style="text-align: center; padding-bottom: 18px; margin-top: -8px;"><div class="grey-button" style="display: inline-block; margin: 6px; font-size: 14px;"></div><div class="green-button" style="display: inline-block; margin: 6px; font-size: 14px;"></div></div></div></html>

@@ -1,0 +1,13 @@
+$( document ).on( 'ready', function(){
+  $.each( $( 'pre.prettyprint:not(.prettyprinted)' ), function() {
+    $( this ).html( window.PR.prettyPrintOne(_.escape( $( this ).text() ) ) );
+  });
+});
+
+/* Vanilla JS version * /
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll( 'pre.prettyprint:not(.prettyprinted)' ).forEach(function(prettyprint) {
+        prettyprint.innerHTML = window.PR.prettyPrintOne(_.escape( prettyprint.innerText ) );
+    });
+});
+/**/

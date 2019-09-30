@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0131)https://codepen.io/GreenSock/embed/HxzEl?default-tab=result&height=290&slug-hash=HxzEl&theme-id=3984&user=GreenSock&name=cp_embed_3 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - TweenMax.staggerTo()</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="izfpK2ZJHLUqxMN6Bdvww8EXXoidF8imP03U9QgbjA8gb0QnPfILcV6jgCKeP0maxSOXuLa0OlZRswOFd6Oq2Q==">
+<link rel="stylesheet" media="all" href="./embed-1381bc37a8f96675cd4d5f734c40ac9d8efa7503e39ad83730639e30848e7ae9.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    .embed-footer,
+    .embed-nav {
+      background: #3d3d3e;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #9fe600;
+      background-color: #666666;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #cccccc;
+      color: #000000;
+      box-shadow: inset 0px 3px #dddddd;
+    }
+    .embed-nav .logo-wrap a {
+      color: #ffffff;
+    }
+
+    .embed-nav svg {
+      stroke: #ffffff !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="./twilight-86b2d8d64ce08f901b8946aeefde8b37185c1b1699748e443c7040ab6fc223e4.css">
+</head>
+<body id="the-body" style="--borderWidth: 0;" class="codepen-embed-body static results-active">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="https://codepen.io/GreenSock/embed/HxzEl?default-tab=result&amp;height=290&amp;slug-hash=HxzEl&amp;theme-id=3984&amp;user=GreenSock&amp;name=cp_embed_3#html-box" aria-pressed="false" role="button">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="https://codepen.io/GreenSock/embed/HxzEl?default-tab=result&amp;height=290&amp;slug-hash=HxzEl&amp;theme-id=3984&amp;user=GreenSock&amp;name=cp_embed_3#css-box" aria-pressed="false" role="button">
+CSS
+</a>
+</li>
+<li class="code-type">
+<a id="js-link" href="https://codepen.io/GreenSock/embed/HxzEl?default-tab=result&amp;height=290&amp;slug-hash=HxzEl&amp;theme-id=3984&amp;user=GreenSock&amp;name=cp_embed_3#js-box" aria-pressed="false" role="button">
+JS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="https://codepen.io/GreenSock/embed/HxzEl?default-tab=result&amp;height=290&amp;slug-hash=HxzEl&amp;theme-id=3984&amp;user=GreenSock&amp;name=cp_embed_3#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="large-logo edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/GreenSock/pen/HxzEl" title="Edit on CodePen">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M80 6h-9v14h9 M114 6h-9 v14h9 M111 13h-6 M77 13h-6 M122 20V6l11 14V6 M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24 M88 14h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14 M15 8c-1.3-1.3-3-2-5-2c-4 0-7 3-7 7s3 7 7 7 c2 0 3.7-0.8 5-2 M64 13c0 4-3 7-7 7h-5V6h5C61 6 64 9 64 13z"></path>
+</svg>
+</a>
+<a class="box-logo edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/GreenSock/pen/HxzEl" title="Edit on CodePen">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24"></path>
+</svg>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="none" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre><code data-lang="htmlmixed" id="actual-html-code" data-og-lang="htmlmixed" data-alt-lang="xml" class=" cm-s-default"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">link</span> <span class="cm-attribute">href</span>=<span class="cm-string">'https://fonts.googleapis.com/css?family=Asap:400,700'</span> <span class="cm-attribute">rel</span>=<span class="cm-string">'stylesheet'</span> <span class="cm-attribute">type</span>=<span class="cm-string">'text/css'</span><span class="cm-tag cm-bracket">&gt;</span><br><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">link</span> <span class="cm-attribute">href</span>=<span class="cm-string">'https://fonts.googleapis.com/css?family=Signika'</span> <span class="cm-attribute">rel</span>=<span class="cm-string">'stylesheet'</span> <span class="cm-attribute">type</span>=<span class="cm-string">'text/css'</span><span class="cm-tag cm-bracket">&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>TweenMax.staggerTo()<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">id</span>=<span class="cm-string">"demo"</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>The start times of each animation are staggered by 0.5 seconds<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box green"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box grey"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box orange"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box green"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box grey"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box orange"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box green"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box grey"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"box orange"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre><code data-lang="css" id="actual-css-code" data-og-lang="css" data-alt-lang="css" class=" cm-s-default"><span class="cm-tag">html</span>, <span class="cm-tag">body</span> {<br>  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;<br>}<br><br><span class="cm-tag">body</span> {<br>  <span class="cm-property">background-color</span>:<span class="cm-atom">#1d1d1d</span>;<br>  <span class="cm-property">font-family</span>: <span class="cm-string">"Asap"</span>, <span class="cm-atom">sans-serif</span>;<br>  <span class="cm-property">color</span>:<span class="cm-atom">#989898</span>;<br>  <span class="cm-property">margin</span>:<span class="cm-number">0</span> <span class="cm-number">10px</span>;<br>  <span class="cm-property">font-size</span>:<span class="cm-number">16px</span>;<br>}<br><br><span class="cm-tag">h1</span>, <span class="cm-tag">h2</span>, <span class="cm-tag">h3</span> {<br>  <span class="cm-property">font-family</span>: <span class="cm-string">"Signika Negative"</span>, <span class="cm-atom">sans-serif</span>;<br>  <span class="cm-property">margin</span>: <span class="cm-number">10px</span> <span class="cm-number">0</span> <span class="cm-number">10px</span> <span class="cm-number">0</span>;<br>  <span class="cm-property">color</span>:<span class="cm-atom">#f3f2ef</span>;<br>}<br><br><span class="cm-tag">h1</span> { <br>  <span class="cm-property">font-size</span>:<span class="cm-number">36px</span>;<br>}<br><br><span class="cm-tag">h2</span> {<br>  <span class="cm-property">font-size</span>:<span class="cm-number">30px</span>;<br>}<br><br><span class="cm-tag">h3</span> {<br>  <span class="cm-property">font-size</span>:<span class="cm-number">24px</span>;<br>}<br><br><span class="cm-tag">p</span>{<br>  <span class="cm-property">line-height</span>:<span class="cm-number">22px</span>;<br>  <span class="cm-property">margin-bottom</span>:<span class="cm-number">16px</span>;<br>  <span class="cm-property">width</span>:<span class="cm-number">650px</span>;<br>}<br><br><span class="cm-builtin">#demo</span> {<br>  <span class="cm-property">height</span>:<span class="cm-number">100%</span>;<br>  <span class="cm-property">position</span>:<span class="cm-atom">relative</span>;<br>}<br><span class="cm-qualifier">.box</span> {<br>  <span class="cm-property">width</span>:<span class="cm-number">50px</span>;<br>  <span class="cm-property">height</span>:<span class="cm-number">50px</span>;<br>  <span class="cm-property">position</span>:<span class="cm-atom">relative</span>;<br>  <span class="cm-property">border-radius</span>:<span class="cm-number">6px</span>;<br>  <span class="cm-property">margin-top</span>:<span class="cm-number">4px</span>;<br>  <span class="cm-property">display</span>:<span class="cm-atom">inline-block</span><br>}<br><br><span class="cm-qualifier">.green</span>{<br>  <span class="cm-property">background-color</span>:<span class="cm-atom">#6fb936</span>;<br>}<br><br><span class="cm-qualifier">.orange</span> {<br>  <span class="cm-property">background-color</span>:<span class="cm-atom">#f38630</span>;<br>}<br><span class="cm-qualifier">.grey</span> {<br>  <span class="cm-property">background-color</span>:<span class="cm-atom">#989898</span>;<br>}<br><br><br></code></pre>
+</div>
+<div id="js-box" class="code-wrap code-box box " role="region" aria-label="JS">
+<pre><code data-lang="javascript" id="actual-js-code" data-og-lang="javascript" data-alt-lang="javascript" class=" cm-s-default"><span class="cm-variable">TweenMax</span>.<span class="cm-property">staggerTo</span>(<span class="cm-string">".box"</span>, <span class="cm-number">1</span>, {<span class="cm-property">rotation</span>:<span class="cm-number">360</span>, <span class="cm-property">y</span>:<span class="cm-number">100</span>}, <span class="cm-number">0.5</span>);<br><br><span class="cm-comment">//The stagger parameter (0.5) controls the amount of time between the start of each tween. Change it to 0.2, 1 or 3 to see how it works.</span></code></pre>
+</div>
+<div id="result-box" class="code-box active" role="region" aria-label="Result">
+<iframe id="result-iframe" class="result-iframe " sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" tabindex="-1" data-src="https://cdpn.io/GreenSock/fullembedgrid/HxzEl?type=embed&amp;animations=run" src="./HxzEl(1).html" allowtransparency="true" frameborder="0" scrolling="yes" allowpaymentrequest="true" allowfullscreen="true" name="CodePen Preview for TweenMax.staggerTo()" title="CodePen Preview for TweenMax.staggerTo()">
+      </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/GreenSock" target="_blank" rel="noopener" class="about-image" style="background-image: url(https://gravatar.com/avatar/5a224f121f96bd037bf6c1c1e2b686fb?s=512&amp;d=https://static.codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png)"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/GreenSock" target="_blank" rel="noopener">GreenSock</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/GreenSock" target="_blank" rel="noopener" class="about-user-more">
+See more by @GreenSock on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button active" id="zoom-button-1">1×</button></li><li><button class="action-button" id="zoom-button-05">0.5×</button></li><li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<div class="resources-box" id="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<ol class="list-of-resources">
+<li>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" target="_blank">//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js</a>
+</li>
+<li>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js</a>
+</li>
+</ol>
+</div>
+<script>
+    __processedPen = {"html":"&lt;link href=&#39;https://fonts.googleapis.com/css?family=Asap:400,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;\n&lt;link href=&#39;https://fonts.googleapis.com/css?family=Signika&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;\n  &lt;h2&gt;TweenMax.staggerTo()&lt;/h2&gt;\n  &lt;div id=&quot;demo&quot;&gt;\n    &lt;p&gt;The start times of each animation are staggered by 0.5 seconds&lt;/p&gt;\n    &lt;div class=&quot;box green&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box grey&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box orange&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box green&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box grey&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box orange&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box green&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box grey&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;box orange&quot;&gt;&lt;/div&gt;\n  &lt;/div&gt;","css":"html, body {\n  height: 100%;\n}\n\nbody {\n  background-color:#1d1d1d;\n  font-family: &quot;Asap&quot;, sans-serif;\n  color:#989898;\n  margin:0 10px;\n  font-size:16px;\n}\n\nh1, h2, h3 {\n  font-family: &quot;Signika Negative&quot;, sans-serif;\n  margin: 10px 0 10px 0;\n  color:#f3f2ef;\n}\n\nh1 { \n  font-size:36px;\n}\n\nh2 {\n  font-size:30px;\n}\n\nh3 {\n  font-size:24px;\n}\n\np{\n  line-height:22px;\n  margin-bottom:16px;\n  width:650px;\n}\n\n#demo {\n  height:100%;\n  position:relative;\n}\n.box {\n  width:50px;\n  height:50px;\n  position:relative;\n  border-radius:6px;\n  margin-top:4px;\n  display:inline-block\n}\n\n.green{\n  background-color:#6fb936;\n}\n\n.orange {\n  background-color:#f38630;\n}\n.grey {\n  background-color:#989898;\n}\n\n\n","js":"TweenMax.staggerTo(&quot;.box&quot;, 1, { rotation: 360, y: 100 }, 0.5);\n\n//The stagger parameter (0.5) controls the amount of time between the start of each tween. Change it to 0.2, 1 or 3 to see how it works."};
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __pageType = "embed";
+    __editable = false;
+    __embed_prefill = false;
+    __env = "production";
+  </script>
+<script src="./embed-04e89c9bded0b1104a1f7440ad88fe3e84ce62a0c6e2791a5fb88a80cd14712a.js.download"></script>
+
+
+</body></html>

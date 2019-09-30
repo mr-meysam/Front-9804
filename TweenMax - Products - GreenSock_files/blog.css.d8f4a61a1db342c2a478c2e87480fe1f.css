@@ -1,0 +1,154 @@
+.ipsSpacer_top.ipsType_light {
+  margin-top: 10px;
+}
+
+.cCmsCategoryFeaturedEntry,
+.cLearningRow_info {
+  position: relative;
+}
+
+.cLearningRow_info .cLearningRow_moderateCheckbox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cBlogRow_info.ipsPad {
+  padding-bottom: 36px;
+}
+.cBlogRow_info .ipsTags {
+  max-height: 36px;
+  overflow: hidden;
+}
+.cBlogRow_info .ipsPad_bottom_double {
+  padding-bottom: 23px;
+}
+
+.ipsBox {
+  height: 100%;
+}
+
+.cLearningRow_title {
+  font-size: 21px;
+}
+.learningContentContainer a:hover,
+.ipsType_pageTitle a:hover {
+  text-decoration: none;
+}
+
+h2.cProductRow_title {
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  text-decoration: none;
+  width: 90%;
+  padding: 11px 0 10px 20px;
+  margin-bottom: 0;
+}
+.ipsPad {
+  padding: 20px;
+}
+
+h2.cProductRow_title a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h1.ipsType_pageTitle .ipsType_break span,
+h2.cProductRow_title a > span {
+  color: #88ce02;
+  font-weight: 600;
+}
+
+.cBlogRow_image img {
+  /*height: 200px;*/
+  max-width: 370px;
+}
+
+.cBlogRow_info .cBlogRow_stats {
+  position: absolute;
+  bottom: 10px;
+  left: 385px;
+}
+
+.ipsTabs_panel {
+  background: none;
+}
+
+.ipsPager_prev a::after,
+.ipsPager_next a::after {
+  line-height: 0.55;
+}
+
+#elInput_gs_search {
+  width: 250px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+@media (max-width: 979px) {
+  .ipsFollow {
+    float: none !important;
+  }
+}
+
+#elInput_gs_search_container {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  #blogContent .cCmsDatabase_blog [class *= "ipsGrid_span"] {
+    float: none !important;
+    max-width: 740px;
+    margin: 0 auto !important;
+  }
+  
+  .cCmsCategoryFeaturedEntry {
+    padding-bottom: 30px;
+  }
+  
+  .cBlogRow_image {
+    margin-bottom: 10px;
+  }
+  
+  .cBlogRow_image img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .cBlogRow_info .cBlogRow_stats {
+    left: auto;
+  }
+  
+  .ipsApp .greensock-select-box {
+    margin-bottom: 10px;
+  }
+  
+  #elInput_gs_search_container {
+    display: block;
+  }
+  
+  #elInput_gs_search {
+    display: block;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* Learning page */
+.learningContentContainer p {
+  margin-bottom: 0;
+}
+
+/* Hack to make search bar appear in gray bar */
+.search-bar-container {
+  position: relative;
+  height: 0;
+}
+.search-bar-container > * {
+  position: absolute;
+  top: 7px;
+  right: 79px;
+}
